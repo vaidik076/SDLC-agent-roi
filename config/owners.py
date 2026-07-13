@@ -1,0 +1,22 @@
+BUSINESS_OWNERS = [
+    "Finance Manager",
+    "HR Manager",
+    "IT Manager",
+    "Sales Director",
+    "Marketing Manager",
+    "Operations Manager",
+    "Procurement Manager",
+    "Supply Chain Manager",
+    "Legal Counsel",
+    "Chief Data Officer",
+    "Chief Technology Officer",
+    "Customer Success Manager",
+    "Compliance Officer",
+    "Risk Manager",
+    "Manufacturing Head",
+    "Healthcare Administrator",
+    "Retail Operations Manager",
+    "Cybersecurity Manager",
+    "Product Manager",
+    "Business Analyst"
+]
