@@ -1,0 +1,3894 @@
+[
+    {
+        "agent_id": "FIN-001",
+        "agent_name": "Invoice Processing Agent",
+        "business_domain": "Finance",
+        "business_owner": "Finance Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for invoice processing agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize invoice processing agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform invoice processing agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for invoice processing agent.",
+        "llm": false,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Risk Analysis",
+            "Invoice Processing",
+            "Data Validation",
+            "OCR",
+            "Compliance Checking",
+            "Forecasting"
+        ],
+        "input_types": [
+            "Email",
+            "PDF",
+            "ERP"
+        ],
+        "output_types": [
+            "KPI Report",
+            "Recommendation"
+        ],
+        "implementation_cost": 53637.0,
+        "annual_operating_cost": 15053.0,
+        "estimated_hours_saved": 2204,
+        "automation_percentage": 93
+    },
+    {
+        "agent_id": "FIN-002",
+        "agent_name": "Cashflow Forecast Agent",
+        "business_domain": "Finance",
+        "business_owner": "Finance Manager",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for cashflow forecast agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize cashflow forecast agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform cashflow forecast agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for cashflow forecast agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Compliance Checking",
+            "Invoice Processing",
+            "Data Validation",
+            "OCR"
+        ],
+        "input_types": [
+            "Excel",
+            "ERP",
+            "PDF"
+        ],
+        "output_types": [
+            "KPI Report",
+            "Financial Report"
+        ],
+        "implementation_cost": 172359.0,
+        "annual_operating_cost": 20238.0,
+        "estimated_hours_saved": 2798,
+        "automation_percentage": 71
+    },
+    {
+        "agent_id": "FIN-003",
+        "agent_name": "Expense Validation Agent",
+        "business_domain": "Finance",
+        "business_owner": "Finance Manager",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for expense validation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize expense validation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform expense validation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for expense validation agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Risk Analysis",
+            "Financial Analysis",
+            "Invoice Processing",
+            "Data Validation",
+            "Forecasting",
+            "OCR"
+        ],
+        "input_types": [
+            "ERP",
+            "PDF"
+        ],
+        "output_types": [
+            "Recommendation",
+            "Financial Report",
+            "KPI Report"
+        ],
+        "implementation_cost": 78180.0,
+        "annual_operating_cost": 15493.0,
+        "estimated_hours_saved": 3334,
+        "automation_percentage": 87
+    },
+    {
+        "agent_id": "FIN-004",
+        "agent_name": "Audit Assistant",
+        "business_domain": "Finance",
+        "business_owner": "Finance Manager",
+        "priority": "Critical",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for audit assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize audit assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform audit assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for audit assistant.",
+        "llm": false,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Compliance Checking",
+            "Forecasting",
+            "OCR",
+            "Invoice Processing",
+            "Data Validation"
+        ],
+        "input_types": [
+            "Excel",
+            "Invoices",
+            "CSV"
+        ],
+        "output_types": [
+            "Audit Report",
+            "Financial Report",
+            "KPI Report"
+        ],
+        "implementation_cost": 229656.0,
+        "annual_operating_cost": 59388.0,
+        "estimated_hours_saved": 3845,
+        "automation_percentage": 73
+    },
+    {
+        "agent_id": "FIN-005",
+        "agent_name": "Financial Planning Agent",
+        "business_domain": "Finance",
+        "business_owner": "Finance Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Active",
+        "problem_statement": "Manual process for financial planning agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize financial planning agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform financial planning agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for financial planning agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Data Validation",
+            "Financial Analysis",
+            "Risk Analysis",
+            "Compliance Checking",
+            "Forecasting",
+            "Invoice Processing"
+        ],
+        "input_types": [
+            "Invoices",
+            "Email",
+            "PDF"
+        ],
+        "output_types": [
+            "KPI Report",
+            "Financial Report",
+            "Audit Report"
+        ],
+        "implementation_cost": 205028.0,
+        "annual_operating_cost": 65157.0,
+        "estimated_hours_saved": 2667,
+        "automation_percentage": 64
+    },
+    {
+        "agent_id": "HR-001",
+        "agent_name": "Resume Screening Agent",
+        "business_domain": "Human Resources",
+        "business_owner": "HR Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for resume screening agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize resume screening agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform resume screening agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for resume screening agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Sentiment Analysis",
+            "Resume Screening",
+            "Scheduling",
+            "Employee Onboarding"
+        ],
+        "input_types": [
+            "PDF",
+            "Email",
+            "Resume"
+        ],
+        "output_types": [
+            "Candidate Ranking",
+            "Email"
+        ],
+        "implementation_cost": 142255.0,
+        "annual_operating_cost": 29081.0,
+        "estimated_hours_saved": 2284,
+        "automation_percentage": 71
+    },
+    {
+        "agent_id": "HR-002",
+        "agent_name": "Employee Onboarding Agent",
+        "business_domain": "Human Resources",
+        "business_owner": "HR Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for employee onboarding agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize employee onboarding agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform employee onboarding agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for employee onboarding agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Policy Validation",
+            "Scheduling",
+            "Employee Onboarding",
+            "Sentiment Analysis",
+            "Knowledge Retrieval"
+        ],
+        "input_types": [
+            "Resume",
+            "HRMS",
+            "Word Document"
+        ],
+        "output_types": [
+            "Recommendation",
+            "Candidate Ranking",
+            "Email"
+        ],
+        "implementation_cost": 67915.0,
+        "annual_operating_cost": 17120.0,
+        "estimated_hours_saved": 2365,
+        "automation_percentage": 88
+    },
+    {
+        "agent_id": "HR-003",
+        "agent_name": "Attendance Monitoring Agent",
+        "business_domain": "Human Resources",
+        "business_owner": "HR Manager",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for attendance monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize attendance monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform attendance monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for attendance monitoring agent.",
+        "llm": false,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Sentiment Analysis",
+            "Document Parsing",
+            "Knowledge Retrieval",
+            "Policy Validation"
+        ],
+        "input_types": [
+            "PDF",
+            "Resume",
+            "Word Document"
+        ],
+        "output_types": [
+            "Email",
+            "Candidate Ranking",
+            "Recommendation"
+        ],
+        "implementation_cost": 67557.0,
+        "annual_operating_cost": 17918.0,
+        "estimated_hours_saved": 3484,
+        "automation_percentage": 94
+    },
+    {
+        "agent_id": "HR-004",
+        "agent_name": "Performance Review Agent",
+        "business_domain": "Human Resources",
+        "business_owner": "HR Manager",
+        "priority": "Critical",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for performance review agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize performance review agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform performance review agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for performance review agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Resume Screening",
+            "Policy Validation",
+            "Employee Onboarding",
+            "Knowledge Retrieval"
+        ],
+        "input_types": [
+            "Word Document",
+            "Email",
+            "PDF"
+        ],
+        "output_types": [
+            "Email",
+            "Summary"
+        ],
+        "implementation_cost": 86326.0,
+        "annual_operating_cost": 10052.0,
+        "estimated_hours_saved": 2808,
+        "automation_percentage": 86
+    },
+    {
+        "agent_id": "HR-005",
+        "agent_name": "Employee Helpdesk Agent",
+        "business_domain": "Human Resources",
+        "business_owner": "HR Manager",
+        "priority": "Low",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for employee helpdesk agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize employee helpdesk agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform employee helpdesk agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for employee helpdesk agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Knowledge Retrieval",
+            "Resume Screening",
+            "Scheduling",
+            "Sentiment Analysis"
+        ],
+        "input_types": [
+            "PDF",
+            "Resume"
+        ],
+        "output_types": [
+            "Email",
+            "Summary"
+        ],
+        "implementation_cost": 84451.0,
+        "annual_operating_cost": 10494.0,
+        "estimated_hours_saved": 3299,
+        "automation_percentage": 85
+    },
+    {
+        "agent_id": "SAL-001",
+        "agent_name": "Lead Scoring Agent",
+        "business_domain": "Sales",
+        "business_owner": "Sales Director",
+        "priority": "Medium",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for lead scoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize lead scoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform lead scoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for lead scoring agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Forecasting",
+            "Customer Segmentation",
+            "CRM Analysis",
+            "Lead Scoring",
+            "Proposal Generation"
+        ],
+        "input_types": [
+            "CRM",
+            "Excel"
+        ],
+        "output_types": [
+            "Sales Report",
+            "Dashboard"
+        ],
+        "implementation_cost": 152481.0,
+        "annual_operating_cost": 29321.0,
+        "estimated_hours_saved": 2715,
+        "automation_percentage": 83
+    },
+    {
+        "agent_id": "SAL-002",
+        "agent_name": "CRM Assistant",
+        "business_domain": "Sales",
+        "business_owner": "Sales Director",
+        "priority": "Critical",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for crm assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize crm assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform crm assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for crm assistant.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Recommendation",
+            "CRM Analysis",
+            "Customer Segmentation",
+            "Forecasting",
+            "Lead Scoring"
+        ],
+        "input_types": [
+            "Excel",
+            "CRM",
+            "Salesforce"
+        ],
+        "output_types": [
+            "Sales Report",
+            "Recommendation",
+            "Dashboard"
+        ],
+        "implementation_cost": 151865.0,
+        "annual_operating_cost": 27319.0,
+        "estimated_hours_saved": 1679,
+        "automation_percentage": 81
+    },
+    {
+        "agent_id": "SAL-003",
+        "agent_name": "Sales Forecast Agent",
+        "business_domain": "Sales",
+        "business_owner": "Sales Director",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for sales forecast agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize sales forecast agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform sales forecast agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for sales forecast agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Customer Segmentation",
+            "Proposal Generation",
+            "Lead Scoring",
+            "Forecasting"
+        ],
+        "input_types": [
+            "CRM",
+            "Excel",
+            "Email"
+        ],
+        "output_types": [
+            "Sales Report",
+            "Recommendation",
+            "Prediction"
+        ],
+        "implementation_cost": 144086.0,
+        "annual_operating_cost": 42970.0,
+        "estimated_hours_saved": 2070,
+        "automation_percentage": 84
+    },
+    {
+        "agent_id": "SAL-004",
+        "agent_name": "Proposal Generator Agent",
+        "business_domain": "Sales",
+        "business_owner": "Sales Director",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for proposal generator agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize proposal generator agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform proposal generator agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for proposal generator agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Proposal Generation",
+            "Lead Scoring",
+            "CRM Analysis",
+            "Recommendation",
+            "Customer Segmentation"
+        ],
+        "input_types": [
+            "CRM",
+            "Email",
+            "Salesforce"
+        ],
+        "output_types": [
+            "Sales Report",
+            "Dashboard"
+        ],
+        "implementation_cost": 104607.0,
+        "annual_operating_cost": 25583.0,
+        "estimated_hours_saved": 2005,
+        "automation_percentage": 74
+    },
+    {
+        "agent_id": "SAL-005",
+        "agent_name": "Opportunity Prediction Agent",
+        "business_domain": "Sales",
+        "business_owner": "Sales Director",
+        "priority": "Medium",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for opportunity prediction agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize opportunity prediction agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform opportunity prediction agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for opportunity prediction agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Proposal Generation",
+            "Recommendation",
+            "Forecasting",
+            "CRM Analysis",
+            "Lead Scoring"
+        ],
+        "input_types": [
+            "CRM",
+            "Email"
+        ],
+        "output_types": [
+            "Sales Report",
+            "Dashboard"
+        ],
+        "implementation_cost": 91809.0,
+        "annual_operating_cost": 29988.0,
+        "estimated_hours_saved": 2228,
+        "automation_percentage": 70
+    },
+    {
+        "agent_id": "MKT-001",
+        "agent_name": "Campaign Optimization Agent",
+        "business_domain": "Marketing",
+        "business_owner": "Marketing Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for campaign optimization agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize campaign optimization agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform campaign optimization agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for campaign optimization agent.",
+        "llm": false,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Content Generation",
+            "Campaign Analysis",
+            "SEO Analysis",
+            "Customer Segmentation"
+        ],
+        "input_types": [
+            "CSV",
+            "Social Media",
+            "Analytics"
+        ],
+        "output_types": [
+            "Summary",
+            "Dashboard"
+        ],
+        "implementation_cost": 83219.0,
+        "annual_operating_cost": 11879.0,
+        "estimated_hours_saved": 2711,
+        "automation_percentage": 85
+    },
+    {
+        "agent_id": "MKT-002",
+        "agent_name": "Content Recommendation Agent",
+        "business_domain": "Marketing",
+        "business_owner": "Marketing Manager",
+        "priority": "Low",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for content recommendation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize content recommendation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform content recommendation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for content recommendation agent.",
+        "llm": false,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Trend Detection",
+            "SEO Analysis",
+            "Content Generation",
+            "Social Media Analysis",
+            "Customer Segmentation",
+            "Campaign Analysis"
+        ],
+        "input_types": [
+            "CSV",
+            "Analytics"
+        ],
+        "output_types": [
+            "Summary",
+            "Campaign Report"
+        ],
+        "implementation_cost": 79406.0,
+        "annual_operating_cost": 10791.0,
+        "estimated_hours_saved": 2347,
+        "automation_percentage": 90
+    },
+    {
+        "agent_id": "MKT-003",
+        "agent_name": "SEO Analysis Agent",
+        "business_domain": "Marketing",
+        "business_owner": "Marketing Manager",
+        "priority": "Critical",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for seo analysis agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize seo analysis agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform seo analysis agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for seo analysis agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Trend Detection",
+            "SEO Analysis",
+            "Social Media Analysis",
+            "Content Generation"
+        ],
+        "input_types": [
+            "CSV",
+            "Analytics"
+        ],
+        "output_types": [
+            "Summary",
+            "Campaign Report",
+            "Dashboard"
+        ],
+        "implementation_cost": 76699.0,
+        "annual_operating_cost": 11979.0,
+        "estimated_hours_saved": 2992,
+        "automation_percentage": 86
+    },
+    {
+        "agent_id": "MKT-004",
+        "agent_name": "Social Media Agent",
+        "business_domain": "Marketing",
+        "business_owner": "Marketing Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for social media agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize social media agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform social media agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for social media agent.",
+        "llm": false,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Campaign Analysis",
+            "Content Generation",
+            "SEO Analysis",
+            "Customer Segmentation",
+            "Trend Detection"
+        ],
+        "input_types": [
+            "CSV",
+            "Social Media",
+            "Website"
+        ],
+        "output_types": [
+            "Campaign Report",
+            "Dashboard"
+        ],
+        "implementation_cost": 70799.0,
+        "annual_operating_cost": 19458.0,
+        "estimated_hours_saved": 3169,
+        "automation_percentage": 91
+    },
+    {
+        "agent_id": "MKT-005",
+        "agent_name": "Customer Segmentation Agent",
+        "business_domain": "Marketing",
+        "business_owner": "Marketing Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for customer segmentation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize customer segmentation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform customer segmentation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for customer segmentation agent.",
+        "llm": false,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "SEO Analysis",
+            "Campaign Analysis",
+            "Social Media Analysis",
+            "Customer Segmentation",
+            "Content Generation",
+            "Trend Detection"
+        ],
+        "input_types": [
+            "Analytics",
+            "Social Media"
+        ],
+        "output_types": [
+            "Dashboard",
+            "Recommendation"
+        ],
+        "implementation_cost": 53838.0,
+        "annual_operating_cost": 11953.0,
+        "estimated_hours_saved": 2891,
+        "automation_percentage": 91
+    },
+    {
+        "agent_id": "GEN-001",
+        "agent_name": "Incident Resolution Agent",
+        "business_domain": "IT Operations",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for incident resolution agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize incident resolution agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform incident resolution agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for incident resolution agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Lead Scoring",
+            "Sentiment Analysis",
+            "Conversation Management",
+            "Text-to-Speech",
+            "Resource Allocation"
+        ],
+        "input_types": [
+            "Log Files",
+            "ServiceNow",
+            "API"
+        ],
+        "output_types": [
+            "Financial Report",
+            "JSON Response",
+            "Performance Metrics"
+        ],
+        "implementation_cost": 145418.0,
+        "annual_operating_cost": 31953.0,
+        "estimated_hours_saved": 2561,
+        "automation_percentage": 71
+    },
+    {
+        "agent_id": "GEN-002",
+        "agent_name": "Log Analysis Agent",
+        "business_domain": "IT Operations",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "2.0",
+        "status": "Active",
+        "problem_statement": "Manual process for log analysis agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize log analysis agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform log analysis agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for log analysis agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Forecasting",
+            "Risk Assessment",
+            "Summarization",
+            "Planning",
+            "Resume Screening"
+        ],
+        "input_types": [
+            "Slack",
+            "Microsoft Teams"
+        ],
+        "output_types": [
+            "Generated Document",
+            "Recommendation",
+            "Compliance Report"
+        ],
+        "implementation_cost": 133862.0,
+        "annual_operating_cost": 31014.0,
+        "estimated_hours_saved": 2895,
+        "automation_percentage": 72
+    },
+    {
+        "agent_id": "GEN-003",
+        "agent_name": "Cloud Cost Optimizer",
+        "business_domain": "IT Operations",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for cloud cost optimizer is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize cloud cost optimizer using enterprise AI.",
+        "current_manual_process": "Employees manually perform cloud cost optimizer using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for cloud cost optimizer.",
+        "llm": false,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Reasoning",
+            "Performance Monitoring",
+            "Medical Documentation",
+            "Decision Making"
+        ],
+        "input_types": [
+            "PDF",
+            "IoT Sensors"
+        ],
+        "output_types": [
+            "Email",
+            "Prediction",
+            "Workflow"
+        ],
+        "implementation_cost": 143593.0,
+        "annual_operating_cost": 35594.0,
+        "estimated_hours_saved": 2367,
+        "automation_percentage": 71
+    },
+    {
+        "agent_id": "GEN-004",
+        "agent_name": "Patch Management Agent",
+        "business_domain": "IT Operations",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Beta",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for patch management agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize patch management agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform patch management agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for patch management agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Semantic Search",
+            "Memory Management",
+            "Prediction",
+            "Customer Support"
+        ],
+        "input_types": [
+            "Website",
+            "Word Document",
+            "API"
+        ],
+        "output_types": [
+            "Prediction",
+            "Excel Report",
+            "Financial Report"
+        ],
+        "implementation_cost": 109793.0,
+        "annual_operating_cost": 20257.0,
+        "estimated_hours_saved": 2061,
+        "automation_percentage": 70
+    },
+    {
+        "agent_id": "GEN-005",
+        "agent_name": "Infrastructure Monitoring Agent",
+        "business_domain": "IT Operations",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for infrastructure monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize infrastructure monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform infrastructure monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for infrastructure monitoring agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Sentiment Analysis",
+            "Prediction",
+            "Resource Allocation",
+            "Image Classification",
+            "Planning",
+            "Fraud Detection"
+        ],
+        "input_types": [
+            "API",
+            "IoT Sensors",
+            "Audio"
+        ],
+        "output_types": [
+            "Email",
+            "Prediction"
+        ],
+        "implementation_cost": 106859.0,
+        "annual_operating_cost": 37866.0,
+        "estimated_hours_saved": 1737,
+        "automation_percentage": 72
+    },
+    {
+        "agent_id": "CSP-001",
+        "agent_name": "Ticket Resolution Agent",
+        "business_domain": "Customer Support",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for ticket resolution agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize ticket resolution agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform ticket resolution agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for ticket resolution agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Tool Calling",
+            "Speech Recognition",
+            "Entity Extraction",
+            "Summarization",
+            "Self Evaluation"
+        ],
+        "input_types": [
+            "XML",
+            "Website"
+        ],
+        "output_types": [
+            "Dashboard",
+            "Performance Metrics"
+        ],
+        "implementation_cost": 59420.0,
+        "annual_operating_cost": 16949.0,
+        "estimated_hours_saved": 2325,
+        "automation_percentage": 94
+    },
+    {
+        "agent_id": "CSP-002",
+        "agent_name": "FAQ Assistant",
+        "business_domain": "Customer Support",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for faq assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize faq assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform faq assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for faq assistant.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Classification",
+            "API Integration",
+            "Policy Validation",
+            "Data Validation"
+        ],
+        "input_types": [
+            "Financial Reports",
+            "Email",
+            "Customer Tickets"
+        ],
+        "output_types": [
+            "Risk Score",
+            "Financial Report"
+        ],
+        "implementation_cost": 58442.0,
+        "annual_operating_cost": 19946.0,
+        "estimated_hours_saved": 2895,
+        "automation_percentage": 88
+    },
+    {
+        "agent_id": "CSP-003",
+        "agent_name": "Complaint Analysis Agent",
+        "business_domain": "Customer Support",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for complaint analysis agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize complaint analysis agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform complaint analysis agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for complaint analysis agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Workflow Orchestration",
+            "Scheduling",
+            "Optimization",
+            "Knowledge Retrieval",
+            "Customer Support",
+            "Inventory Optimization"
+        ],
+        "input_types": [
+            "Video",
+            "Invoices",
+            "Word Document"
+        ],
+        "output_types": [
+            "Performance Metrics",
+            "Risk Score",
+            "Generated Document"
+        ],
+        "implementation_cost": 56810.0,
+        "annual_operating_cost": 12196.0,
+        "estimated_hours_saved": 2835,
+        "automation_percentage": 87
+    },
+    {
+        "agent_id": "CSP-004",
+        "agent_name": "Customer Feedback Agent",
+        "business_domain": "Customer Support",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for customer feedback agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize customer feedback agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform customer feedback agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for customer feedback agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Human-in-the-Loop",
+            "Document Parsing",
+            "Recommendation",
+            "Forecasting",
+            "Translation"
+        ],
+        "input_types": [
+            "API",
+            "Salesforce"
+        ],
+        "output_types": [
+            "Summary",
+            "Generated Document",
+            "Confidence Score"
+        ],
+        "implementation_cost": 68247.0,
+        "annual_operating_cost": 17550.0,
+        "estimated_hours_saved": 2536,
+        "automation_percentage": 86
+    },
+    {
+        "agent_id": "CSP-005",
+        "agent_name": "Support Routing Agent",
+        "business_domain": "Customer Support",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for support routing agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize support routing agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform support routing agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for support routing agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Speech-to-Text",
+            "Planning",
+            "Multi-Agent Coordination",
+            "Sentiment Analysis",
+            "Policy Validation"
+        ],
+        "input_types": [
+            "Audio",
+            "Financial Reports"
+        ],
+        "output_types": [
+            "Performance Metrics",
+            "CSV Report"
+        ],
+        "implementation_cost": 60010.0,
+        "annual_operating_cost": 17100.0,
+        "estimated_hours_saved": 2427,
+        "automation_percentage": 92
+    },
+    {
+        "agent_id": "PRC-001",
+        "agent_name": "RFQ Management Agent",
+        "business_domain": "Procurement",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for rfq management agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize rfq management agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform rfq management agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for rfq management agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Text Generation",
+            "Risk Assessment",
+            "Semantic Search",
+            "KPI Tracking",
+            "Data Cleaning",
+            "Bias Detection"
+        ],
+        "input_types": [
+            "PDF",
+            "Medical Records"
+        ],
+        "output_types": [
+            "Generated Document",
+            "Executive Report",
+            "Notification"
+        ],
+        "implementation_cost": 95175.0,
+        "annual_operating_cost": 21450.0,
+        "estimated_hours_saved": 2388,
+        "automation_percentage": 79
+    },
+    {
+        "agent_id": "PRC-002",
+        "agent_name": "Vendor Evaluation Agent",
+        "business_domain": "Procurement",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for vendor evaluation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize vendor evaluation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform vendor evaluation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for vendor evaluation agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Information Extraction",
+            "Customer Support",
+            "Summarization",
+            "Lead Scoring",
+            "Text Generation"
+        ],
+        "input_types": [
+            "Contracts",
+            "ERP",
+            "Microsoft Teams"
+        ],
+        "output_types": [
+            "Decision",
+            "Summary"
+        ],
+        "implementation_cost": 91727.0,
+        "annual_operating_cost": 41113.0,
+        "estimated_hours_saved": 2359,
+        "automation_percentage": 80
+    },
+    {
+        "agent_id": "PRC-003",
+        "agent_name": "Purchase Order Agent",
+        "business_domain": "Procurement",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for purchase order agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize purchase order agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform purchase order agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for purchase order agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Contract Review",
+            "Demand Forecasting",
+            "Customer Segmentation",
+            "Cost Optimization"
+        ],
+        "input_types": [
+            "Cloud Storage",
+            "Website",
+            "CSV"
+        ],
+        "output_types": [
+            "Risk Score",
+            "Visualization",
+            "Recommendation"
+        ],
+        "implementation_cost": 175965.0,
+        "annual_operating_cost": 26385.0,
+        "estimated_hours_saved": 2337,
+        "automation_percentage": 72
+    },
+    {
+        "agent_id": "PRC-004",
+        "agent_name": "Spend Analysis Agent",
+        "business_domain": "Procurement",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for spend analysis agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize spend analysis agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform spend analysis agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for spend analysis agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Memory Management",
+            "Semantic Search",
+            "Safety Review",
+            "Anomaly Detection",
+            "Scheduling"
+        ],
+        "input_types": [
+            "Resumes",
+            "Salesforce"
+        ],
+        "output_types": [
+            "Root Cause Analysis",
+            "CSV Report"
+        ],
+        "implementation_cost": 170109.0,
+        "annual_operating_cost": 25368.0,
+        "estimated_hours_saved": 2992,
+        "automation_percentage": 79
+    },
+    {
+        "agent_id": "PRC-005",
+        "agent_name": "Contract Review Agent",
+        "business_domain": "Procurement",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for contract review agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize contract review agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform contract review agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for contract review agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Conversation Management",
+            "Demand Forecasting",
+            "API Integration",
+            "Reflection"
+        ],
+        "input_types": [
+            "Contracts",
+            "CSV"
+        ],
+        "output_types": [
+            "Decision",
+            "Visualization",
+            "Risk Score"
+        ],
+        "implementation_cost": 233981.0,
+        "annual_operating_cost": 54837.0,
+        "estimated_hours_saved": 2808,
+        "automation_percentage": 74
+    },
+    {
+        "agent_id": "MFG-001",
+        "agent_name": "Quality Inspection Agent",
+        "business_domain": "Manufacturing",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for quality inspection agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize quality inspection agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform quality inspection agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for quality inspection agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Reasoning",
+            "Report Generation",
+            "Risk Assessment",
+            "Reflection",
+            "Image Classification"
+        ],
+        "input_types": [
+            "Invoices",
+            "Website",
+            "Excel"
+        ],
+        "output_types": [
+            "Excel Report",
+            "KPI Report"
+        ],
+        "implementation_cost": 142176.0,
+        "annual_operating_cost": 42985.0,
+        "estimated_hours_saved": 2027,
+        "automation_percentage": 83
+    },
+    {
+        "agent_id": "MFG-002",
+        "agent_name": "Predictive Maintenance Agent",
+        "business_domain": "Manufacturing",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for predictive maintenance agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize predictive maintenance agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform predictive maintenance agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for predictive maintenance agent.",
+        "llm": false,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Data Validation",
+            "Reflection",
+            "Financial Analysis",
+            "Semantic Search",
+            "Classification",
+            "Scheduling"
+        ],
+        "input_types": [
+            "Log Files",
+            "Audio"
+        ],
+        "output_types": [
+            "Risk Score",
+            "Performance Metrics"
+        ],
+        "implementation_cost": 159006.0,
+        "annual_operating_cost": 20006.0,
+        "estimated_hours_saved": 2845,
+        "automation_percentage": 78
+    },
+    {
+        "agent_id": "MFG-003",
+        "agent_name": "Production Monitoring Agent",
+        "business_domain": "Manufacturing",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for production monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize production monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform production monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for production monitoring agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Continuous Learning",
+            "Policy Validation",
+            "Data Cleaning",
+            "Knowledge Retrieval",
+            "KPI Tracking",
+            "Task Automation"
+        ],
+        "input_types": [
+            "Salesforce",
+            "Invoices"
+        ],
+        "output_types": [
+            "Confidence Score",
+            "Financial Report"
+        ],
+        "implementation_cost": 144860.0,
+        "annual_operating_cost": 25634.0,
+        "estimated_hours_saved": 2998,
+        "automation_percentage": 70
+    },
+    {
+        "agent_id": "MFG-004",
+        "agent_name": "Defect Detection Agent",
+        "business_domain": "Manufacturing",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for defect detection agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize defect detection agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform defect detection agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for defect detection agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Forecasting",
+            "Scheduling",
+            "Resource Allocation",
+            "Anomaly Detection",
+            "Continuous Learning",
+            "Risk Assessment"
+        ],
+        "input_types": [
+            "Financial Reports",
+            "Images",
+            "API"
+        ],
+        "output_types": [
+            "JSON Response",
+            "Email",
+            "Audit Report"
+        ],
+        "implementation_cost": 167191.0,
+        "annual_operating_cost": 36214.0,
+        "estimated_hours_saved": 2874,
+        "automation_percentage": 82
+    },
+    {
+        "agent_id": "MFG-005",
+        "agent_name": "Factory Optimization Agent",
+        "business_domain": "Manufacturing",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for factory optimization agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize factory optimization agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform factory optimization agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for factory optimization agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Code Review",
+            "Continuous Learning",
+            "Scheduling",
+            "Medical Documentation",
+            "KPI Tracking",
+            "Customer Support"
+        ],
+        "input_types": [
+            "Excel",
+            "Website"
+        ],
+        "output_types": [
+            "Root Cause Analysis",
+            "Compliance Report"
+        ],
+        "implementation_cost": 106483.0,
+        "annual_operating_cost": 42184.0,
+        "estimated_hours_saved": 2429,
+        "automation_percentage": 71
+    },
+    {
+        "agent_id": "SCM-001",
+        "agent_name": "Inventory Optimization Agent",
+        "business_domain": "Supply Chain",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Active",
+        "problem_statement": "Manual process for inventory optimization agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize inventory optimization agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform inventory optimization agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for inventory optimization agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Resume Screening",
+            "Classification",
+            "Sentiment Analysis",
+            "Customer Support",
+            "Contract Review"
+        ],
+        "input_types": [
+            "Word Document",
+            "ServiceNow",
+            "Audio"
+        ],
+        "output_types": [
+            "Visualization",
+            "Financial Report",
+            "Root Cause Analysis"
+        ],
+        "implementation_cost": 98968.0,
+        "annual_operating_cost": 37298.0,
+        "estimated_hours_saved": 2847,
+        "automation_percentage": 72
+    },
+    {
+        "agent_id": "SCM-002",
+        "agent_name": "Demand Forecast Agent",
+        "business_domain": "Supply Chain",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for demand forecast agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize demand forecast agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform demand forecast agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for demand forecast agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "API Integration",
+            "Safety Review",
+            "Scheduling",
+            "Resource Allocation"
+        ],
+        "input_types": [
+            "Confluence",
+            "Resumes"
+        ],
+        "output_types": [
+            "CSV Report",
+            "Visualization",
+            "Audit Report"
+        ],
+        "implementation_cost": 156093.0,
+        "annual_operating_cost": 37522.0,
+        "estimated_hours_saved": 2946,
+        "automation_percentage": 77
+    },
+    {
+        "agent_id": "SCM-003",
+        "agent_name": "Warehouse Assistant",
+        "business_domain": "Supply Chain",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for warehouse assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize warehouse assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform warehouse assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for warehouse assistant.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Performance Monitoring",
+            "Anomaly Detection",
+            "Root Cause Analysis",
+            "Policy Validation",
+            "Meeting Summarization",
+            "Risk Assessment"
+        ],
+        "input_types": [
+            "Microsoft Teams",
+            "CSV"
+        ],
+        "output_types": [
+            "Prediction",
+            "Summary"
+        ],
+        "implementation_cost": 136400.0,
+        "annual_operating_cost": 39482.0,
+        "estimated_hours_saved": 2012,
+        "automation_percentage": 71
+    },
+    {
+        "agent_id": "SCM-004",
+        "agent_name": "Shipment Tracking Agent",
+        "business_domain": "Supply Chain",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for shipment tracking agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize shipment tracking agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform shipment tracking agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for shipment tracking agent.",
+        "llm": false,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Financial Analysis",
+            "Recommendation",
+            "Classification",
+            "Prediction",
+            "Planning",
+            "Self Evaluation"
+        ],
+        "input_types": [
+            "Slack",
+            "Word Document"
+        ],
+        "output_types": [
+            "Workflow",
+            "Dashboard"
+        ],
+        "implementation_cost": 164098.0,
+        "annual_operating_cost": 30090.0,
+        "estimated_hours_saved": 2134,
+        "automation_percentage": 73
+    },
+    {
+        "agent_id": "SCM-005",
+        "agent_name": "Logistics Planning Agent",
+        "business_domain": "Supply Chain",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Active",
+        "problem_statement": "Manual process for logistics planning agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize logistics planning agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform logistics planning agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for logistics planning agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Conversation Management",
+            "Multi-Agent Coordination",
+            "Report Generation",
+            "Demand Forecasting",
+            "Question Answering"
+        ],
+        "input_types": [
+            "Customer Tickets",
+            "JSON"
+        ],
+        "output_types": [
+            "Confidence Score",
+            "Recommendation"
+        ],
+        "implementation_cost": 104376.0,
+        "annual_operating_cost": 33705.0,
+        "estimated_hours_saved": 1740,
+        "automation_percentage": 70
+    },
+    {
+        "agent_id": "LEG-001",
+        "agent_name": "Contract Review Agent",
+        "business_domain": "Legal",
+        "business_owner": "Legal Counsel",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for contract review agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize contract review agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform contract review agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for contract review agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Risk Analysis",
+            "Legal Research",
+            "Clause Extraction",
+            "Contract Review",
+            "Document Parsing"
+        ],
+        "input_types": [
+            "Word Document",
+            "PDF",
+            "Contracts"
+        ],
+        "output_types": [
+            "Recommendation",
+            "Legal Report"
+        ],
+        "implementation_cost": 225509.0,
+        "annual_operating_cost": 79734.0,
+        "estimated_hours_saved": 2808,
+        "automation_percentage": 67
+    },
+    {
+        "agent_id": "LEG-002",
+        "agent_name": "Legal Research Agent",
+        "business_domain": "Legal",
+        "business_owner": "Legal Counsel",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for legal research agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize legal research agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform legal research agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for legal research agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Contract Review",
+            "Risk Analysis",
+            "Clause Extraction",
+            "Document Parsing"
+        ],
+        "input_types": [
+            "Contracts",
+            "Word Document",
+            "PDF"
+        ],
+        "output_types": [
+            "Legal Report",
+            "Recommendation"
+        ],
+        "implementation_cost": 259890.0,
+        "annual_operating_cost": 48961.0,
+        "estimated_hours_saved": 3290,
+        "automation_percentage": 73
+    },
+    {
+        "agent_id": "LEG-003",
+        "agent_name": "Compliance Assistant",
+        "business_domain": "Legal",
+        "business_owner": "Legal Counsel",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for compliance assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize compliance assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform compliance assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for compliance assistant.",
+        "llm": false,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Contract Review",
+            "Legal Research",
+            "Document Parsing",
+            "Risk Analysis",
+            "Clause Extraction"
+        ],
+        "input_types": [
+            "PDF",
+            "Word Document",
+            "Contracts"
+        ],
+        "output_types": [
+            "Recommendation",
+            "Legal Report"
+        ],
+        "implementation_cost": 230954.0,
+        "annual_operating_cost": 54195.0,
+        "estimated_hours_saved": 2947,
+        "automation_percentage": 66
+    },
+    {
+        "agent_id": "LEG-004",
+        "agent_name": "Policy Review Agent",
+        "business_domain": "Legal",
+        "business_owner": "Legal Counsel",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for policy review agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize policy review agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform policy review agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for policy review agent.",
+        "llm": false,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Risk Analysis",
+            "Legal Research",
+            "Contract Review",
+            "Clause Extraction",
+            "Document Parsing"
+        ],
+        "input_types": [
+            "Contracts",
+            "PDF"
+        ],
+        "output_types": [
+            "Legal Report",
+            "Recommendation"
+        ],
+        "implementation_cost": 190202.0,
+        "annual_operating_cost": 76877.0,
+        "estimated_hours_saved": 2832,
+        "automation_percentage": 56
+    },
+    {
+        "agent_id": "LEG-005",
+        "agent_name": "Case Summary Agent",
+        "business_domain": "Legal",
+        "business_owner": "Legal Counsel",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for case summary agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize case summary agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform case summary agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for case summary agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Contract Review",
+            "Clause Extraction",
+            "Risk Analysis",
+            "Document Parsing",
+            "Legal Research"
+        ],
+        "input_types": [
+            "Word Document",
+            "Contracts"
+        ],
+        "output_types": [
+            "Recommendation",
+            "Summary"
+        ],
+        "implementation_cost": 218512.0,
+        "annual_operating_cost": 63517.0,
+        "estimated_hours_saved": 3142,
+        "automation_percentage": 55
+    },
+    {
+        "agent_id": "HLT-001",
+        "agent_name": "Clinical Documentation Agent",
+        "business_domain": "Healthcare",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for clinical documentation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize clinical documentation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform clinical documentation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for clinical documentation agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Root Cause Analysis",
+            "Knowledge Management",
+            "Customer Segmentation",
+            "Semantic Search",
+            "Code Review"
+        ],
+        "input_types": [
+            "Word Document",
+            "Video",
+            "Invoices"
+        ],
+        "output_types": [
+            "JSON Response",
+            "Visualization"
+        ],
+        "implementation_cost": 197668.0,
+        "annual_operating_cost": 50149.0,
+        "estimated_hours_saved": 2560,
+        "automation_percentage": 58
+    },
+    {
+        "agent_id": "HLT-002",
+        "agent_name": "Patient Scheduling Agent",
+        "business_domain": "Healthcare",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for patient scheduling agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize patient scheduling agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform patient scheduling agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for patient scheduling agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Reflection",
+            "Risk Assessment",
+            "Sentiment Analysis",
+            "Demand Forecasting",
+            "Translation"
+        ],
+        "input_types": [
+            "Financial Reports",
+            "JSON",
+            "SAP"
+        ],
+        "output_types": [
+            "KPI Report",
+            "Visualization",
+            "Decision"
+        ],
+        "implementation_cost": 186036.0,
+        "annual_operating_cost": 52977.0,
+        "estimated_hours_saved": 3087,
+        "automation_percentage": 56
+    },
+    {
+        "agent_id": "HLT-003",
+        "agent_name": "Medical Coding Agent",
+        "business_domain": "Healthcare",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for medical coding agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize medical coding agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform medical coding agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for medical coding agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Decision Support",
+            "Semantic Search",
+            "Compliance Checking",
+            "Business Intelligence",
+            "Risk Assessment"
+        ],
+        "input_types": [
+            "Database",
+            "Excel"
+        ],
+        "output_types": [
+            "KPI Report",
+            "Email",
+            "Visualization"
+        ],
+        "implementation_cost": 274152.0,
+        "annual_operating_cost": 47633.0,
+        "estimated_hours_saved": 2881,
+        "automation_percentage": 75
+    },
+    {
+        "agent_id": "HLT-004",
+        "agent_name": "Diagnosis Support Agent",
+        "business_domain": "Healthcare",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for diagnosis support agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize diagnosis support agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform diagnosis support agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for diagnosis support agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Information Extraction",
+            "Question Answering",
+            "Invoice Processing",
+            "Sentiment Analysis",
+            "KPI Tracking"
+        ],
+        "input_types": [
+            "Microsoft Teams",
+            "Confluence"
+        ],
+        "output_types": [
+            "Compliance Report",
+            "JSON Response"
+        ],
+        "implementation_cost": 289076.0,
+        "annual_operating_cost": 67418.0,
+        "estimated_hours_saved": 2793,
+        "automation_percentage": 73
+    },
+    {
+        "agent_id": "HLT-005",
+        "agent_name": "Hospital Workflow Agent",
+        "business_domain": "Healthcare",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for hospital workflow agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize hospital workflow agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform hospital workflow agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for hospital workflow agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Invoice Processing",
+            "Text Generation",
+            "Speech Recognition",
+            "Document Parsing"
+        ],
+        "input_types": [
+            "JSON",
+            "Slack",
+            "XML"
+        ],
+        "output_types": [
+            "CSV Report",
+            "Action Plan"
+        ],
+        "implementation_cost": 278747.0,
+        "annual_operating_cost": 69896.0,
+        "estimated_hours_saved": 3304,
+        "automation_percentage": 65
+    },
+    {
+        "agent_id": "BNK-001",
+        "agent_name": "Fraud Detection Agent",
+        "business_domain": "Banking",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for fraud detection agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize fraud detection agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform fraud detection agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for fraud detection agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Compliance Checking",
+            "Code Generation",
+            "Speech-to-Text",
+            "Image Classification",
+            "Question Answering"
+        ],
+        "input_types": [
+            "Cloud Storage",
+            "CRM",
+            "Financial Reports"
+        ],
+        "output_types": [
+            "Decision",
+            "Generated Document",
+            "Alert"
+        ],
+        "implementation_cost": 248874.0,
+        "annual_operating_cost": 49050.0,
+        "estimated_hours_saved": 3893,
+        "automation_percentage": 64
+    },
+    {
+        "agent_id": "BNK-002",
+        "agent_name": "Loan Processing Agent",
+        "business_domain": "Banking",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for loan processing agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize loan processing agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform loan processing agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for loan processing agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Translation",
+            "Task Automation",
+            "Resume Screening",
+            "Reasoning",
+            "Data Validation"
+        ],
+        "input_types": [
+            "Financial Reports",
+            "CRM"
+        ],
+        "output_types": [
+            "Risk Score",
+            "Generated Document",
+            "Email"
+        ],
+        "implementation_cost": 234543.0,
+        "annual_operating_cost": 61137.0,
+        "estimated_hours_saved": 3212,
+        "automation_percentage": 55
+    },
+    {
+        "agent_id": "BNK-003",
+        "agent_name": "Risk Assessment Agent",
+        "business_domain": "Banking",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for risk assessment agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize risk assessment agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform risk assessment agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for risk assessment agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Document Parsing",
+            "Knowledge Retrieval",
+            "Classification",
+            "Tool Calling"
+        ],
+        "input_types": [
+            "Jira",
+            "IoT Sensors"
+        ],
+        "output_types": [
+            "Excel Report",
+            "CSV Report",
+            "Email"
+        ],
+        "implementation_cost": 199552.0,
+        "annual_operating_cost": 78290.0,
+        "estimated_hours_saved": 3604,
+        "automation_percentage": 60
+    },
+    {
+        "agent_id": "BNK-004",
+        "agent_name": "KYC Verification Agent",
+        "business_domain": "Banking",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for kyc verification agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize kyc verification agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform kyc verification agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for kyc verification agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Semantic Search",
+            "Continuous Learning",
+            "Speech-to-Text",
+            "Demand Forecasting",
+            "Reasoning"
+        ],
+        "input_types": [
+            "Purchase Orders",
+            "NoSQL Database",
+            "Resumes"
+        ],
+        "output_types": [
+            "Dashboard",
+            "Generated Document",
+            "Recommendation"
+        ],
+        "implementation_cost": 251743.0,
+        "annual_operating_cost": 47344.0,
+        "estimated_hours_saved": 3744,
+        "automation_percentage": 75
+    },
+    {
+        "agent_id": "BNK-005",
+        "agent_name": "Credit Analysis Agent",
+        "business_domain": "Banking",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for credit analysis agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize credit analysis agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform credit analysis agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for credit analysis agent.",
+        "llm": false,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Entity Extraction",
+            "Resource Allocation",
+            "Demand Forecasting",
+            "Speech-to-Text",
+            "Anomaly Detection"
+        ],
+        "input_types": [
+            "Website",
+            "Email"
+        ],
+        "output_types": [
+            "Financial Report",
+            "Dashboard",
+            "CSV Report"
+        ],
+        "implementation_cost": 265938.0,
+        "annual_operating_cost": 46245.0,
+        "estimated_hours_saved": 2727,
+        "automation_percentage": 60
+    },
+    {
+        "agent_id": "INS-001",
+        "agent_name": "Claims Processing Agent",
+        "business_domain": "Insurance",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for claims processing agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize claims processing agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform claims processing agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for claims processing agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Speech Recognition",
+            "Decision Support",
+            "Contract Review",
+            "Code Generation",
+            "Performance Monitoring",
+            "Recommendation"
+        ],
+        "input_types": [
+            "Slack",
+            "Contracts"
+        ],
+        "output_types": [
+            "Financial Report",
+            "Action Plan",
+            "Decision"
+        ],
+        "implementation_cost": 193227.0,
+        "annual_operating_cost": 72686.0,
+        "estimated_hours_saved": 3303,
+        "automation_percentage": 59
+    },
+    {
+        "agent_id": "INS-002",
+        "agent_name": "Policy Recommendation Agent",
+        "business_domain": "Insurance",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for policy recommendation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize policy recommendation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform policy recommendation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for policy recommendation agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Demand Forecasting",
+            "Image Classification",
+            "Anomaly Detection",
+            "Reasoning",
+            "Resume Screening"
+        ],
+        "input_types": [
+            "XML",
+            "Cloud Storage"
+        ],
+        "output_types": [
+            "CSV Report",
+            "Recommendation",
+            "Excel Report"
+        ],
+        "implementation_cost": 274182.0,
+        "annual_operating_cost": 70278.0,
+        "estimated_hours_saved": 3705,
+        "automation_percentage": 72
+    },
+    {
+        "agent_id": "INS-003",
+        "agent_name": "Fraud Investigation Agent",
+        "business_domain": "Insurance",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for fraud investigation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize fraud investigation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform fraud investigation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for fraud investigation agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Planning",
+            "Memory Management",
+            "Reflection",
+            "Recommendation",
+            "Image Classification"
+        ],
+        "input_types": [
+            "Invoices",
+            "Financial Reports",
+            "Knowledge Base"
+        ],
+        "output_types": [
+            "Risk Score",
+            "Action Plan",
+            "Email"
+        ],
+        "implementation_cost": 213001.0,
+        "annual_operating_cost": 78051.0,
+        "estimated_hours_saved": 3611,
+        "automation_percentage": 67
+    },
+    {
+        "agent_id": "INS-004",
+        "agent_name": "Customer Renewal Agent",
+        "business_domain": "Insurance",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for customer renewal agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize customer renewal agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform customer renewal agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for customer renewal agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Document Parsing",
+            "Cost Optimization",
+            "Meeting Summarization",
+            "SQL Generation"
+        ],
+        "input_types": [
+            "ERP",
+            "Database"
+        ],
+        "output_types": [
+            "JSON Response",
+            "Visualization"
+        ],
+        "implementation_cost": 299763.0,
+        "annual_operating_cost": 59524.0,
+        "estimated_hours_saved": 2903,
+        "automation_percentage": 57
+    },
+    {
+        "agent_id": "INS-005",
+        "agent_name": "Risk Profiling Agent",
+        "business_domain": "Insurance",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for risk profiling agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize risk profiling agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform risk profiling agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for risk profiling agent.",
+        "llm": false,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Task Automation",
+            "Dashboard Generation",
+            "Knowledge Management",
+            "Planning"
+        ],
+        "input_types": [
+            "Customer Tickets",
+            "Medical Records",
+            "Audio"
+        ],
+        "output_types": [
+            "Action Plan",
+            "Risk Score",
+            "Prediction"
+        ],
+        "implementation_cost": 202035.0,
+        "annual_operating_cost": 64129.0,
+        "estimated_hours_saved": 2512,
+        "automation_percentage": 75
+    },
+    {
+        "agent_id": "RTL-001",
+        "agent_name": "Shelf Monitoring Agent",
+        "business_domain": "Retail",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for shelf monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize shelf monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform shelf monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for shelf monitoring agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Demand Forecasting",
+            "Data Cleaning",
+            "Lead Scoring",
+            "Resource Allocation",
+            "Compliance Checking"
+        ],
+        "input_types": [
+            "Images",
+            "Log Files"
+        ],
+        "output_types": [
+            "Alert",
+            "Generated Document"
+        ],
+        "implementation_cost": 74560.0,
+        "annual_operating_cost": 14925.0,
+        "estimated_hours_saved": 2341,
+        "automation_percentage": 90
+    },
+    {
+        "agent_id": "RTL-002",
+        "agent_name": "Demand Prediction Agent",
+        "business_domain": "Retail",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for demand prediction agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize demand prediction agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform demand prediction agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for demand prediction agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Reasoning",
+            "Code Review",
+            "Financial Analysis",
+            "API Integration",
+            "Customer Segmentation",
+            "Email Drafting"
+        ],
+        "input_types": [
+            "Audio",
+            "PDF"
+        ],
+        "output_types": [
+            "Risk Score",
+            "Prediction"
+        ],
+        "implementation_cost": 85828.0,
+        "annual_operating_cost": 16524.0,
+        "estimated_hours_saved": 2571,
+        "automation_percentage": 91
+    },
+    {
+        "agent_id": "RTL-003",
+        "agent_name": "Price Optimization Agent",
+        "business_domain": "Retail",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for price optimization agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize price optimization agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform price optimization agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for price optimization agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Human-in-the-Loop",
+            "Knowledge Management",
+            "Knowledge Retrieval",
+            "Semantic Search"
+        ],
+        "input_types": [
+            "Audio",
+            "Purchase Orders"
+        ],
+        "output_types": [
+            "Action Plan",
+            "KPI Report"
+        ],
+        "implementation_cost": 69512.0,
+        "annual_operating_cost": 13050.0,
+        "estimated_hours_saved": 2410,
+        "automation_percentage": 89
+    },
+    {
+        "agent_id": "RTL-004",
+        "agent_name": "Customer Recommendation Agent",
+        "business_domain": "Retail",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "2.0",
+        "status": "Active",
+        "problem_statement": "Manual process for customer recommendation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize customer recommendation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform customer recommendation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for customer recommendation agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Anomaly Detection",
+            "Planning",
+            "Speech-to-Text",
+            "Code Generation",
+            "Memory Management",
+            "Risk Assessment"
+        ],
+        "input_types": [
+            "JSON",
+            "Confluence"
+        ],
+        "output_types": [
+            "Compliance Report",
+            "Confidence Score",
+            "Email"
+        ],
+        "implementation_cost": 68378.0,
+        "annual_operating_cost": 19206.0,
+        "estimated_hours_saved": 3381,
+        "automation_percentage": 88
+    },
+    {
+        "agent_id": "RTL-005",
+        "agent_name": "Inventory Assistant",
+        "business_domain": "Retail",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Prototype",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for inventory assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize inventory assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform inventory assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for inventory assistant.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Bias Detection",
+            "Conversation Management",
+            "Continuous Learning",
+            "Entity Extraction",
+            "Question Answering",
+            "Knowledge Retrieval"
+        ],
+        "input_types": [
+            "Financial Reports",
+            "NoSQL Database"
+        ],
+        "output_types": [
+            "Dashboard",
+            "Compliance Report",
+            "Alert"
+        ],
+        "implementation_cost": 84170.0,
+        "annual_operating_cost": 18614.0,
+        "estimated_hours_saved": 3344,
+        "automation_percentage": 91
+    },
+    {
+        "agent_id": "GEN-001",
+        "agent_name": "Drug Safety Agent",
+        "business_domain": "Pharmaceutical",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Prototype",
+        "version": "2.0",
+        "status": "Active",
+        "problem_statement": "Manual process for drug safety agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize drug safety agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform drug safety agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for drug safety agent.",
+        "llm": false,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Text Generation",
+            "Sentiment Analysis",
+            "Human-in-the-Loop",
+            "Financial Analysis",
+            "Summarization",
+            "Image Classification"
+        ],
+        "input_types": [
+            "Database",
+            "Salesforce",
+            "Audio"
+        ],
+        "output_types": [
+            "Notification",
+            "JSON Response",
+            "Risk Score"
+        ],
+        "implementation_cost": 163756.0,
+        "annual_operating_cost": 22197.0,
+        "estimated_hours_saved": 1751,
+        "automation_percentage": 72
+    },
+    {
+        "agent_id": "GEN-002",
+        "agent_name": "Clinical Trial Assistant",
+        "business_domain": "Pharmaceutical",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for clinical trial assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize clinical trial assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform clinical trial assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for clinical trial assistant.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Contract Review",
+            "Decision Making",
+            "SQL Generation",
+            "Cost Optimization",
+            "Code Generation"
+        ],
+        "input_types": [
+            "Knowledge Base",
+            "ServiceNow",
+            "JSON"
+        ],
+        "output_types": [
+            "Alert",
+            "Summary"
+        ],
+        "implementation_cost": 117218.0,
+        "annual_operating_cost": 41976.0,
+        "estimated_hours_saved": 2372,
+        "automation_percentage": 73
+    },
+    {
+        "agent_id": "GEN-003",
+        "agent_name": "Regulatory Compliance Agent",
+        "business_domain": "Pharmaceutical",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for regulatory compliance agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize regulatory compliance agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform regulatory compliance agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for regulatory compliance agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Invoice Processing",
+            "OCR",
+            "Risk Assessment",
+            "Self Evaluation",
+            "Bias Detection",
+            "Scheduling"
+        ],
+        "input_types": [
+            "Jira",
+            "Knowledge Base"
+        ],
+        "output_types": [
+            "Generated Document",
+            "Confidence Score",
+            "Financial Report"
+        ],
+        "implementation_cost": 140314.0,
+        "annual_operating_cost": 32755.0,
+        "estimated_hours_saved": 2239,
+        "automation_percentage": 75
+    },
+    {
+        "agent_id": "GEN-004",
+        "agent_name": "Research Documentation Agent",
+        "business_domain": "Pharmaceutical",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for research documentation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize research documentation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform research documentation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for research documentation agent.",
+        "llm": false,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Scheduling",
+            "Lead Scoring",
+            "Meeting Summarization",
+            "Hallucination Detection",
+            "Data Cleaning"
+        ],
+        "input_types": [
+            "NoSQL Database",
+            "Excel"
+        ],
+        "output_types": [
+            "Recommendation",
+            "Action Plan",
+            "Decision"
+        ],
+        "implementation_cost": 96751.0,
+        "annual_operating_cost": 28833.0,
+        "estimated_hours_saved": 2486,
+        "automation_percentage": 79
+    },
+    {
+        "agent_id": "GEN-005",
+        "agent_name": "Laboratory Assistant",
+        "business_domain": "Pharmaceutical",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for laboratory assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize laboratory assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform laboratory assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for laboratory assistant.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Forecasting",
+            "Conversation Management",
+            "Fraud Detection",
+            "Speech-to-Text",
+            "Semantic Search"
+        ],
+        "input_types": [
+            "ServiceNow",
+            "Images",
+            "Invoices"
+        ],
+        "output_types": [
+            "Alert",
+            "Excel Report"
+        ],
+        "implementation_cost": 118799.0,
+        "annual_operating_cost": 33644.0,
+        "estimated_hours_saved": 2725,
+        "automation_percentage": 76
+    },
+    {
+        "agent_id": "EDU-001",
+        "agent_name": "Student Assistant",
+        "business_domain": "Education",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for student assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize student assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform student assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for student assistant.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Meeting Summarization",
+            "Self Evaluation",
+            "Bias Detection",
+            "Continuous Learning",
+            "Knowledge Retrieval"
+        ],
+        "input_types": [
+            "Cloud Storage",
+            "Salesforce",
+            "Video"
+        ],
+        "output_types": [
+            "Root Cause Analysis",
+            "Risk Score"
+        ],
+        "implementation_cost": 60241.0,
+        "annual_operating_cost": 11938.0,
+        "estimated_hours_saved": 3214,
+        "automation_percentage": 86
+    },
+    {
+        "agent_id": "EDU-002",
+        "agent_name": "Exam Evaluation Agent",
+        "business_domain": "Education",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for exam evaluation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize exam evaluation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform exam evaluation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for exam evaluation agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Multi-Agent Coordination",
+            "Resume Screening",
+            "Conversation Management",
+            "Semantic Search",
+            "Quality Assurance"
+        ],
+        "input_types": [
+            "Audio",
+            "CRM",
+            "Video"
+        ],
+        "output_types": [
+            "Executive Report",
+            "Prediction"
+        ],
+        "implementation_cost": 75273.0,
+        "annual_operating_cost": 15976.0,
+        "estimated_hours_saved": 2845,
+        "automation_percentage": 94
+    },
+    {
+        "agent_id": "EDU-003",
+        "agent_name": "Course Recommendation Agent",
+        "business_domain": "Education",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for course recommendation agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize course recommendation agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform course recommendation agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for course recommendation agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Performance Monitoring",
+            "Sentiment Analysis",
+            "Meeting Summarization",
+            "Data Cleaning",
+            "Task Automation"
+        ],
+        "input_types": [
+            "Contracts",
+            "Resumes"
+        ],
+        "output_types": [
+            "JSON Response",
+            "Excel Report",
+            "Audit Report"
+        ],
+        "implementation_cost": 82183.0,
+        "annual_operating_cost": 10227.0,
+        "estimated_hours_saved": 2603,
+        "automation_percentage": 95
+    },
+    {
+        "agent_id": "EDU-004",
+        "agent_name": "Attendance Monitoring Agent",
+        "business_domain": "Education",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for attendance monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize attendance monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform attendance monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for attendance monitoring agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Recommendation",
+            "Knowledge Management",
+            "Question Answering",
+            "Inventory Optimization",
+            "Task Automation",
+            "Continuous Learning"
+        ],
+        "input_types": [
+            "Customer Tickets",
+            "Audio"
+        ],
+        "output_types": [
+            "Confidence Score",
+            "KPI Report"
+        ],
+        "implementation_cost": 70818.0,
+        "annual_operating_cost": 16939.0,
+        "estimated_hours_saved": 2646,
+        "automation_percentage": 92
+    },
+    {
+        "agent_id": "EDU-005",
+        "agent_name": "Learning Analytics Agent",
+        "business_domain": "Education",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for learning analytics agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize learning analytics agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform learning analytics agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for learning analytics agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Meeting Summarization",
+            "Root Cause Analysis",
+            "Image Classification",
+            "Business Intelligence"
+        ],
+        "input_types": [
+            "Medical Records",
+            "CSV",
+            "Images"
+        ],
+        "output_types": [
+            "JSON Response",
+            "Workflow"
+        ],
+        "implementation_cost": 78310.0,
+        "annual_operating_cost": 13822.0,
+        "estimated_hours_saved": 3047,
+        "automation_percentage": 89
+    },
+    {
+        "agent_id": "CYB-001",
+        "agent_name": "SOC Monitoring Agent",
+        "business_domain": "Cybersecurity",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for soc monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize soc monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform soc monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for soc monitoring agent.",
+        "llm": false,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Continuous Learning",
+            "API Integration",
+            "Reasoning",
+            "Reflection",
+            "Medical Documentation",
+            "Multi-Agent Coordination"
+        ],
+        "input_types": [
+            "NoSQL Database",
+            "Database",
+            "SQL Database"
+        ],
+        "output_types": [
+            "Audit Report",
+            "Recommendation"
+        ],
+        "implementation_cost": 275707.0,
+        "annual_operating_cost": 56101.0,
+        "estimated_hours_saved": 2508,
+        "automation_percentage": 59
+    },
+    {
+        "agent_id": "CYB-002",
+        "agent_name": "Threat Detection Agent",
+        "business_domain": "Cybersecurity",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for threat detection agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize threat detection agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform threat detection agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for threat detection agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Prediction",
+            "Hallucination Detection",
+            "Summarization",
+            "Decision Support"
+        ],
+        "input_types": [
+            "Contracts",
+            "Medical Records",
+            "Database"
+        ],
+        "output_types": [
+            "Performance Metrics",
+            "Compliance Report",
+            "Notification"
+        ],
+        "implementation_cost": 236262.0,
+        "annual_operating_cost": 63345.0,
+        "estimated_hours_saved": 2687,
+        "automation_percentage": 62
+    },
+    {
+        "agent_id": "CYB-003",
+        "agent_name": "Vulnerability Scanner Agent",
+        "business_domain": "Cybersecurity",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for vulnerability scanner agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize vulnerability scanner agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform vulnerability scanner agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for vulnerability scanner agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Task Automation",
+            "Optimization",
+            "Sentiment Analysis",
+            "Hallucination Detection",
+            "Speech Recognition"
+        ],
+        "input_types": [
+            "Email",
+            "Customer Tickets",
+            "Slack"
+        ],
+        "output_types": [
+            "Executive Report",
+            "Workflow",
+            "Action Plan"
+        ],
+        "implementation_cost": 181541.0,
+        "annual_operating_cost": 59805.0,
+        "estimated_hours_saved": 3413,
+        "automation_percentage": 60
+    },
+    {
+        "agent_id": "CYB-004",
+        "agent_name": "Security Compliance Agent",
+        "business_domain": "Cybersecurity",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for security compliance agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize security compliance agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform security compliance agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for security compliance agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Policy Validation",
+            "Question Answering",
+            "Business Intelligence",
+            "Knowledge Management",
+            "Invoice Processing",
+            "Tool Calling"
+        ],
+        "input_types": [
+            "Email",
+            "Excel"
+        ],
+        "output_types": [
+            "Alert",
+            "Root Cause Analysis"
+        ],
+        "implementation_cost": 249327.0,
+        "annual_operating_cost": 53424.0,
+        "estimated_hours_saved": 3787,
+        "automation_percentage": 70
+    },
+    {
+        "agent_id": "CYB-005",
+        "agent_name": "Incident Response Agent",
+        "business_domain": "Cybersecurity",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Prototype",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for incident response agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize incident response agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform incident response agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for incident response agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Document Parsing",
+            "Scheduling",
+            "Compliance Checking",
+            "Email Drafting",
+            "Human-in-the-Loop",
+            "Decision Support"
+        ],
+        "input_types": [
+            "Slack",
+            "JSON",
+            "Email"
+        ],
+        "output_types": [
+            "Financial Report",
+            "Recommendation",
+            "Visualization"
+        ],
+        "implementation_cost": 193100.0,
+        "annual_operating_cost": 55946.0,
+        "estimated_hours_saved": 3965,
+        "automation_percentage": 69
+    },
+    {
+        "agent_id": "TEL-001",
+        "agent_name": "Network Optimization Agent",
+        "business_domain": "Telecommunications",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for network optimization agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize network optimization agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform network optimization agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for network optimization agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Decision Support",
+            "Memory Management",
+            "Scheduling",
+            "Question Answering",
+            "Self Evaluation"
+        ],
+        "input_types": [
+            "XML",
+            "CRM",
+            "API"
+        ],
+        "output_types": [
+            "Executive Report",
+            "KPI Report"
+        ],
+        "implementation_cost": 163618.0,
+        "annual_operating_cost": 37201.0,
+        "estimated_hours_saved": 2029,
+        "automation_percentage": 80
+    },
+    {
+        "agent_id": "TEL-002",
+        "agent_name": "Call Quality Monitoring Agent",
+        "business_domain": "Telecommunications",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Under Review",
+        "problem_statement": "Manual process for call quality monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize call quality monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform call quality monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for call quality monitoring agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Financial Analysis",
+            "Report Generation",
+            "API Integration",
+            "Bias Detection",
+            "Forecasting"
+        ],
+        "input_types": [
+            "ServiceNow",
+            "Database"
+        ],
+        "output_types": [
+            "Generated Document",
+            "KPI Report",
+            "Visualization"
+        ],
+        "implementation_cost": 174479.0,
+        "annual_operating_cost": 31547.0,
+        "estimated_hours_saved": 2527,
+        "automation_percentage": 79
+    },
+    {
+        "agent_id": "TEL-003",
+        "agent_name": "Customer Usage Analysis Agent",
+        "business_domain": "Telecommunications",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for customer usage analysis agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize customer usage analysis agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform customer usage analysis agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for customer usage analysis agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Reasoning",
+            "Summarization",
+            "Customer Segmentation",
+            "Text-to-Speech"
+        ],
+        "input_types": [
+            "Cloud Storage",
+            "API"
+        ],
+        "output_types": [
+            "Recommendation",
+            "Root Cause Analysis",
+            "JSON Response"
+        ],
+        "implementation_cost": 164220.0,
+        "annual_operating_cost": 24178.0,
+        "estimated_hours_saved": 1665,
+        "automation_percentage": 82
+    },
+    {
+        "agent_id": "TEL-004",
+        "agent_name": "Fault Detection Agent",
+        "business_domain": "Telecommunications",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for fault detection agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize fault detection agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform fault detection agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for fault detection agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Dashboard Generation",
+            "Text-to-Speech",
+            "Data Cleaning",
+            "Image Classification",
+            "Human-in-the-Loop",
+            "Quality Assurance"
+        ],
+        "input_types": [
+            "SQL Database",
+            "Word Document"
+        ],
+        "output_types": [
+            "Audit Report",
+            "KPI Report"
+        ],
+        "implementation_cost": 90369.0,
+        "annual_operating_cost": 42621.0,
+        "estimated_hours_saved": 1621,
+        "automation_percentage": 74
+    },
+    {
+        "agent_id": "TEL-005",
+        "agent_name": "Bandwidth Optimization Agent",
+        "business_domain": "Telecommunications",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for bandwidth optimization agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize bandwidth optimization agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform bandwidth optimization agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for bandwidth optimization agent.",
+        "llm": true,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Customer Support",
+            "Customer Segmentation",
+            "KPI Tracking",
+            "Multi-Agent Coordination",
+            "Optimization"
+        ],
+        "input_types": [
+            "Salesforce",
+            "Website"
+        ],
+        "output_types": [
+            "Root Cause Analysis",
+            "Email",
+            "Notification"
+        ],
+        "implementation_cost": 136764.0,
+        "annual_operating_cost": 34228.0,
+        "estimated_hours_saved": 2735,
+        "automation_percentage": 85
+    },
+    {
+        "agent_id": "ENG-001",
+        "agent_name": "Energy Consumption Agent",
+        "business_domain": "Energy",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Beta",
+        "version": "1.1",
+        "status": "Planned",
+        "problem_statement": "Manual process for energy consumption agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize energy consumption agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform energy consumption agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for energy consumption agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Memory Management",
+            "Resource Allocation",
+            "Data Cleaning",
+            "Tool Calling",
+            "Anomaly Detection"
+        ],
+        "input_types": [
+            "Customer Tickets",
+            "Word Document"
+        ],
+        "output_types": [
+            "Confidence Score",
+            "Workflow"
+        ],
+        "implementation_cost": 207101.0,
+        "annual_operating_cost": 65659.0,
+        "estimated_hours_saved": 3499,
+        "automation_percentage": 61
+    },
+    {
+        "agent_id": "ENG-002",
+        "agent_name": "Asset Monitoring Agent",
+        "business_domain": "Energy",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Prototype",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for asset monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize asset monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform asset monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for asset monitoring agent.",
+        "llm": true,
+        "vision": true,
+        "rag": true,
+        "graphrag": true,
+        "memory": true,
+        "skills": [
+            "Information Extraction",
+            "Resource Allocation",
+            "Risk Assessment",
+            "Quality Assurance",
+            "Semantic Search",
+            "Speech-to-Text"
+        ],
+        "input_types": [
+            "Slack",
+            "IoT Sensors",
+            "Log Files"
+        ],
+        "output_types": [
+            "Alert",
+            "Summary"
+        ],
+        "implementation_cost": 220761.0,
+        "annual_operating_cost": 53514.0,
+        "estimated_hours_saved": 2794,
+        "automation_percentage": 69
+    },
+    {
+        "agent_id": "ENG-003",
+        "agent_name": "Grid Optimization Agent",
+        "business_domain": "Energy",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Active",
+        "problem_statement": "Manual process for grid optimization agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize grid optimization agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform grid optimization agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for grid optimization agent.",
+        "llm": false,
+        "vision": false,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Compliance Checking",
+            "Recommendation",
+            "API Integration",
+            "Sentiment Analysis"
+        ],
+        "input_types": [
+            "Cloud Storage",
+            "Microsoft Teams",
+            "Contracts"
+        ],
+        "output_types": [
+            "Decision",
+            "Workflow",
+            "Email"
+        ],
+        "implementation_cost": 298327.0,
+        "annual_operating_cost": 51651.0,
+        "estimated_hours_saved": 3596,
+        "automation_percentage": 64
+    },
+    {
+        "agent_id": "ENG-004",
+        "agent_name": "Predictive Maintenance Agent",
+        "business_domain": "Energy",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for predictive maintenance agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize predictive maintenance agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform predictive maintenance agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for predictive maintenance agent.",
+        "llm": false,
+        "vision": false,
+        "rag": true,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Entity Extraction",
+            "OCR",
+            "Information Extraction",
+            "Document Parsing"
+        ],
+        "input_types": [
+            "JSON",
+            "Audio",
+            "API"
+        ],
+        "output_types": [
+            "Executive Report",
+            "JSON Response"
+        ],
+        "implementation_cost": 237326.0,
+        "annual_operating_cost": 61730.0,
+        "estimated_hours_saved": 3053,
+        "automation_percentage": 57
+    },
+    {
+        "agent_id": "ENG-005",
+        "agent_name": "Carbon Emission Agent",
+        "business_domain": "Energy",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for carbon emission agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize carbon emission agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform carbon emission agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for carbon emission agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Scheduling",
+            "Data Validation",
+            "Sentiment Analysis",
+            "Medical Documentation",
+            "Recommendation"
+        ],
+        "input_types": [
+            "SQL Database",
+            "Images"
+        ],
+        "output_types": [
+            "Classification",
+            "Performance Metrics"
+        ],
+        "implementation_cost": 219399.0,
+        "annual_operating_cost": 75523.0,
+        "estimated_hours_saved": 2915,
+        "automation_percentage": 56
+    },
+    {
+        "agent_id": "DAT-001",
+        "agent_name": "Data Quality Agent",
+        "business_domain": "Data & Analytics",
+        "business_owner": "Business Manager",
+        "priority": "Medium",
+        "maturity": "Production",
+        "version": "2.0",
+        "status": "Planned",
+        "problem_statement": "Manual process for data quality agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize data quality agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform data quality agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for data quality agent.",
+        "llm": true,
+        "vision": false,
+        "rag": true,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Memory Management",
+            "Business Intelligence",
+            "Contract Review",
+            "Information Extraction",
+            "Policy Validation"
+        ],
+        "input_types": [
+            "Cloud Storage",
+            "XML",
+            "JSON"
+        ],
+        "output_types": [
+            "Workflow",
+            "JSON Response",
+            "Action Plan"
+        ],
+        "implementation_cost": 229739.0,
+        "annual_operating_cost": 64865.0,
+        "estimated_hours_saved": 2803,
+        "automation_percentage": 59
+    },
+    {
+        "agent_id": "DAT-002",
+        "agent_name": "ETL Monitoring Agent",
+        "business_domain": "Data & Analytics",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "1.1",
+        "status": "Active",
+        "problem_statement": "Manual process for etl monitoring agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize etl monitoring agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform etl monitoring agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for etl monitoring agent.",
+        "llm": false,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": false,
+        "skills": [
+            "Translation",
+            "Optimization",
+            "Safety Review",
+            "Planning"
+        ],
+        "input_types": [
+            "API",
+            "Log Files",
+            "Database"
+        ],
+        "output_types": [
+            "CSV Report",
+            "Root Cause Analysis"
+        ],
+        "implementation_cost": 242030.0,
+        "annual_operating_cost": 57635.0,
+        "estimated_hours_saved": 2664,
+        "automation_percentage": 75
+    },
+    {
+        "agent_id": "DAT-003",
+        "agent_name": "Business Intelligence Agent",
+        "business_domain": "Data & Analytics",
+        "business_owner": "Business Manager",
+        "priority": "High",
+        "maturity": "Prototype",
+        "version": "2.0",
+        "status": "Active",
+        "problem_statement": "Manual process for business intelligence agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize business intelligence agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform business intelligence agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for business intelligence agent.",
+        "llm": false,
+        "vision": true,
+        "rag": true,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Speech-to-Text",
+            "Task Automation",
+            "Code Generation",
+            "Tool Calling"
+        ],
+        "input_types": [
+            "Excel",
+            "Resumes"
+        ],
+        "output_types": [
+            "Generated Document",
+            "Compliance Report"
+        ],
+        "implementation_cost": 204906.0,
+        "annual_operating_cost": 73553.0,
+        "estimated_hours_saved": 3169,
+        "automation_percentage": 65
+    },
+    {
+        "agent_id": "DAT-004",
+        "agent_name": "Data Governance Agent",
+        "business_domain": "Data & Analytics",
+        "business_owner": "Business Manager",
+        "priority": "Critical",
+        "maturity": "Beta",
+        "version": "2.0",
+        "status": "Under Review",
+        "problem_statement": "Manual process for data governance agent is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize data governance agent using enterprise AI.",
+        "current_manual_process": "Employees manually perform data governance agent using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for data governance agent.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": false,
+        "memory": true,
+        "skills": [
+            "Financial Analysis",
+            "Email Drafting",
+            "Speech-to-Text",
+            "Translation"
+        ],
+        "input_types": [
+            "Confluence",
+            "Medical Records"
+        ],
+        "output_types": [
+            "Prediction",
+            "Performance Metrics"
+        ],
+        "implementation_cost": 223641.0,
+        "annual_operating_cost": 69777.0,
+        "estimated_hours_saved": 3713,
+        "automation_percentage": 74
+    },
+    {
+        "agent_id": "DAT-005",
+        "agent_name": "Analytics Assistant",
+        "business_domain": "Data & Analytics",
+        "business_owner": "Business Manager",
+        "priority": "Low",
+        "maturity": "Beta",
+        "version": "1.0",
+        "status": "Active",
+        "problem_statement": "Manual process for analytics assistant is slow, repetitive, and prone to human errors.",
+        "business_goal": "Automate and optimize analytics assistant using enterprise AI.",
+        "current_manual_process": "Employees manually perform analytics assistant using spreadsheets, emails, and business applications.",
+        "expected_ai_workflow": "AI receives inputs, processes requests, applies business rules, and produces automated outputs for analytics assistant.",
+        "llm": true,
+        "vision": true,
+        "rag": false,
+        "graphrag": true,
+        "memory": false,
+        "skills": [
+            "Self Evaluation",
+            "Text-to-Speech",
+            "Sentiment Analysis",
+            "Quality Assurance"
+        ],
+        "input_types": [
+            "Knowledge Base",
+            "Word Document",
+            "Invoices"
+        ],
+        "output_types": [
+            "KPI Report",
+            "CSV Report"
+        ],
+        "implementation_cost": 226851.0,
+        "annual_operating_cost": 52661.0,
+        "estimated_hours_saved": 3361,
+        "automation_percentage": 73
+    }
+]
