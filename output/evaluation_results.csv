@@ -1,0 +1,101 @@
+Agent ID,Agent Name,Business Domain,Business Impact,Data Readiness,AI Readiness,Technical Complexity,Risk Score,Overall Score,Readiness,Recommendation
+FIN-001,Invoice Processing Agent,Finance,70.0,80.0,65.0,90.0,60.0,69.5,Moderate,Prototype First
+FIN-002,Cashflow Forecast Agent,Finance,60.0,70.0,60.0,95.0,80.0,61.25,Moderate,Prototype First
+FIN-003,Expense Validation Agent,Finance,95.0,70.0,45.0,85.0,60.0,70.25,Moderate,Prototype First
+FIN-004,Audit Assistant,Finance,60.0,80.0,85.0,85.0,70.0,68.25,Moderate,Prototype First
+FIN-005,Financial Planning Agent,Finance,70.0,70.0,30.0,70.0,80.0,54.5,Needs Improvement,Further Investigation Required
+HR-001,Resume Screening Agent,Human Resources,60.0,90.0,100.0,95.0,50.0,77.75,Ready,Deploy After Improvements
+HR-002,Employee Onboarding Agent,Human Resources,90.0,80.0,65.0,75.0,60.0,73.25,Moderate,Prototype First
+HR-003,Attendance Monitoring Agent,Human Resources,85.0,70.0,55.0,80.0,40.0,71.5,Moderate,Prototype First
+HR-004,Performance Review Agent,Human Resources,88.0,80.0,15.0,75.0,30.0,67.15,Moderate,Prototype First
+HR-005,Employee Helpdesk Agent,Human Resources,88.0,60.0,50.0,75.0,30.0,70.15,Moderate,Prototype First
+SAL-001,Lead Scoring Agent,Sales,60.0,80.0,60.0,85.0,40.0,67.75,Moderate,Prototype First
+SAL-002,CRM Assistant,Sales,85.0,70.0,15.0,80.0,40.0,63.5,Moderate,Prototype First
+SAL-003,Sales Forecast Agent,Sales,68.0,80.0,80.0,95.0,50.0,74.15,Moderate,Prototype First
+SAL-004,Proposal Generator Agent,Sales,75.0,70.0,60.0,90.0,50.0,69.5,Moderate,Prototype First
+SAL-005,Opportunity Prediction Agent,Sales,75.0,70.0,60.0,80.0,40.0,69.5,Moderate,Prototype First
+MKT-001,Campaign Optimization Agent,Marketing,90.0,70.0,80.0,80.0,60.0,75.0,Ready,Deploy After Improvements
+MKT-002,Content Recommendation Agent,Marketing,90.0,80.0,55.0,80.0,60.0,72.0,Moderate,Prototype First
+MKT-003,SEO Analysis Agent,Marketing,70.0,70.0,65.0,85.0,30.0,71.25,Moderate,Prototype First
+MKT-004,Social Media Agent,Marketing,88.0,70.0,0.0,65.0,30.0,60.65,Moderate,Prototype First
+MKT-005,Customer Segmentation Agent,Marketing,78.0,70.0,15.0,75.0,40.0,60.65,Moderate,Prototype First
+GEN-001,Incident Resolution Agent,IT Operations,68.0,60.0,50.0,65.0,20.0,64.15,Moderate,Prototype First
+GEN-002,Log Analysis Agent,IT Operations,80.0,80.0,35.0,75.0,50.0,65.75,Moderate,Prototype First
+GEN-003,Cloud Cost Optimizer,IT Operations,80.0,70.0,15.0,85.0,50.0,61.25,Moderate,Prototype First
+GEN-004,Patch Management Agent,IT Operations,78.0,60.0,15.0,70.0,30.0,59.4,Needs Improvement,Further Investigation Required
+GEN-005,Infrastructure Monitoring Agent,IT Operations,68.0,70.0,65.0,85.0,40.0,69.15,Moderate,Prototype First
+CSP-001,Ticket Resolution Agent,Customer Support,78.0,60.0,45.0,85.0,40.0,66.15,Moderate,Prototype First
+CSP-002,FAQ Assistant,Customer Support,70.0,80.0,35.0,85.0,30.0,67.25,Moderate,Prototype First
+CSP-003,Complaint Analysis Agent,Customer Support,70.0,70.0,45.0,75.0,30.0,65.75,Moderate,Prototype First
+CSP-004,Customer Feedback Agent,Customer Support,85.0,80.0,50.0,70.0,30.0,72.5,Moderate,Prototype First
+CSP-005,Support Routing Agent,Customer Support,78.0,70.0,60.0,80.0,50.0,68.9,Moderate,Prototype First
+PRC-001,RFQ Management Agent,Procurement,68.0,80.0,40.0,70.0,20.0,66.9,Moderate,Prototype First
+PRC-002,Vendor Evaluation Agent,Procurement,80.0,60.0,30.0,65.0,40.0,60.75,Moderate,Prototype First
+PRC-003,Purchase Order Agent,Procurement,68.0,70.0,40.0,60.0,20.0,63.4,Moderate,Prototype First
+PRC-004,Spend Analysis Agent,Procurement,60.0,60.0,65.0,80.0,40.0,64.0,Moderate,Prototype First
+PRC-005,Contract Review Agent,Procurement,68.0,70.0,85.0,80.0,40.0,72.4,Moderate,Prototype First
+MFG-001,Quality Inspection Agent,Manufacturing,75.0,90.0,80.0,100.0,40.0,80.5,Ready,Deploy After Improvements
+MFG-002,Predictive Maintenance Agent,Manufacturing,85.0,80.0,85.0,85.0,40.0,80.25,Ready,Deploy After Improvements
+MFG-003,Production Monitoring Agent,Manufacturing,68.0,70.0,50.0,80.0,50.0,63.9,Moderate,Prototype First
+MFG-004,Defect Detection Agent,Manufacturing,75.0,90.0,65.0,75.0,40.0,73.75,Moderate,Prototype First
+MFG-005,Factory Optimization Agent,Manufacturing,60.0,70.0,60.0,95.0,50.0,65.75,Moderate,Prototype First
+SCM-001,Inventory Optimization Agent,Supply Chain,68.0,90.0,100.0,90.0,50.0,79.4,Ready,Deploy After Improvements
+SCM-002,Demand Forecast Agent,Supply Chain,75.0,70.0,50.0,70.0,30.0,67.5,Moderate,Prototype First
+SCM-003,Warehouse Assistant,Supply Chain,60.0,70.0,45.0,75.0,30.0,62.75,Moderate,Prototype First
+SCM-004,Shipment Tracking Agent,Supply Chain,60.0,90.0,85.0,80.0,30.0,75.5,Ready,Deploy After Improvements
+SCM-005,Logistics Planning Agent,Supply Chain,75.0,90.0,85.0,80.0,40.0,78.5,Ready,Deploy After Improvements
+LEG-001,Contract Review Agent,Legal,80.0,60.0,30.0,70.0,70.0,57.0,Needs Improvement,Further Investigation Required
+LEG-002,Legal Research Agent,Legal,68.0,70.0,50.0,70.0,60.0,60.9,Moderate,Prototype First
+LEG-003,Compliance Assistant,Legal,65.0,70.0,45.0,80.0,70.0,59.0,Needs Improvement,Further Investigation Required
+LEG-004,Policy Review Agent,Legal,60.0,80.0,35.0,75.0,70.0,56.75,Needs Improvement,Further Investigation Required
+LEG-005,Case Summary Agent,Legal,75.0,70.0,65.0,80.0,70.0,66.0,Moderate,Prototype First
+HLT-001,Clinical Documentation Agent,Healthcare,75.0,70.0,20.0,65.0,50.0,57.75,Needs Improvement,Further Investigation Required
+HLT-002,Patient Scheduling Agent,Healthcare,68.0,80.0,45.0,85.0,70.0,62.65,Moderate,Prototype First
+HLT-003,Medical Coding Agent,Healthcare,85.0,70.0,45.0,85.0,70.0,65.75,Moderate,Prototype First
+HLT-004,Diagnosis Support Agent,Healthcare,75.0,70.0,20.0,70.0,60.0,57.0,Needs Improvement,Further Investigation Required
+HLT-005,Hospital Workflow Agent,Healthcare,75.0,80.0,80.0,95.0,80.0,71.75,Moderate,Prototype First
+BNK-001,Fraud Detection Agent,Banking,75.0,80.0,80.0,90.0,80.0,71.0,Moderate,Prototype First
+BNK-002,Loan Processing Agent,Banking,75.0,80.0,60.0,90.0,80.0,67.0,Moderate,Prototype First
+BNK-003,Risk Assessment Agent,Banking,70.0,70.0,35.0,85.0,60.0,60.75,Moderate,Prototype First
+BNK-004,KYC Verification Agent,Banking,58.0,80.0,50.0,80.0,60.0,61.4,Moderate,Prototype First
+BNK-005,Credit Analysis Agent,Banking,75.0,70.0,50.0,65.0,60.0,62.25,Moderate,Prototype First
+INS-001,Claims Processing Agent,Insurance,60.0,70.0,45.0,80.0,40.0,62.0,Moderate,Prototype First
+INS-002,Policy Recommendation Agent,Insurance,68.0,90.0,65.0,85.0,30.0,74.65,Moderate,Prototype First
+INS-003,Fraud Investigation Agent,Insurance,68.0,70.0,70.0,70.0,30.0,69.4,Moderate,Prototype First
+INS-004,Customer Renewal Agent,Insurance,50.0,80.0,45.0,80.0,40.0,61.0,Moderate,Prototype First
+INS-005,Risk Profiling Agent,Insurance,75.0,80.0,35.0,80.0,40.0,66.5,Moderate,Prototype First
+RTL-001,Shelf Monitoring Agent,Retail,90.0,80.0,20.0,70.0,50.0,65.0,Moderate,Prototype First
+RTL-002,Demand Prediction Agent,Retail,70.0,70.0,65.0,85.0,30.0,71.25,Moderate,Prototype First
+RTL-003,Price Optimization Agent,Retail,78.0,80.0,50.0,75.0,20.0,72.65,Moderate,Prototype First
+RTL-004,Customer Recommendation Agent,Retail,70.0,80.0,35.0,80.0,40.0,65.0,Moderate,Prototype First
+RTL-005,Inventory Assistant,Retail,90.0,70.0,80.0,80.0,70.0,73.5,Moderate,Prototype First
+GEN-001,Drug Safety Agent,Pharmaceutical,60.0,90.0,80.0,100.0,50.0,74.5,Moderate,Prototype First
+GEN-002,Clinical Trial Assistant,Pharmaceutical,68.0,80.0,85.0,75.0,30.0,75.15,Ready,Deploy After Improvements
+GEN-003,Regulatory Compliance Agent,Pharmaceutical,80.0,70.0,50.0,80.0,40.0,69.0,Moderate,Prototype First
+GEN-004,Research Documentation Agent,Pharmaceutical,75.0,80.0,100.0,90.0,50.0,79.5,Ready,Deploy After Improvements
+GEN-005,Laboratory Assistant,Pharmaceutical,80.0,70.0,60.0,85.0,70.0,67.25,Moderate,Prototype First
+EDU-001,Student Assistant,Education,85.0,80.0,50.0,95.0,40.0,74.75,Moderate,Prototype First
+EDU-002,Exam Evaluation Agent,Education,78.0,70.0,70.0,65.0,30.0,71.65,Moderate,Prototype First
+EDU-003,Course Recommendation Agent,Education,78.0,70.0,45.0,70.0,40.0,65.9,Moderate,Prototype First
+EDU-004,Attendance Monitoring Agent,Education,70.0,90.0,85.0,90.0,30.0,80.0,Ready,Deploy After Improvements
+EDU-005,Learning Analytics Agent,Education,88.0,60.0,45.0,80.0,40.0,68.4,Moderate,Prototype First
+CYB-001,SOC Monitoring Agent,Cybersecurity,50.0,70.0,55.0,80.0,60.0,58.0,Needs Improvement,Further Investigation Required
+CYB-002,Threat Detection Agent,Cybersecurity,50.0,90.0,55.0,75.0,70.0,59.75,Needs Improvement,Further Investigation Required
+CYB-003,Vulnerability Scanner Agent,Cybersecurity,68.0,80.0,60.0,90.0,80.0,64.9,Moderate,Prototype First
+CYB-004,Security Compliance Agent,Cybersecurity,80.0,70.0,80.0,85.0,90.0,68.25,Moderate,Prototype First
+CYB-005,Incident Response Agent,Cybersecurity,75.0,90.0,100.0,90.0,80.0,77.0,Ready,Deploy After Improvements
+TEL-001,Network Optimization Agent,Telecommunications,68.0,70.0,50.0,65.0,20.0,66.15,Moderate,Prototype First
+TEL-002,Call Quality Monitoring Agent,Telecommunications,80.0,80.0,55.0,80.0,60.0,69.0,Moderate,Prototype First
+TEL-003,Customer Usage Analysis Agent,Telecommunications,75.0,80.0,15.0,85.0,30.0,64.75,Moderate,Prototype First
+TEL-004,Fault Detection Agent,Telecommunications,80.0,80.0,55.0,80.0,50.0,70.5,Moderate,Prototype First
+TEL-005,Bandwidth Optimization Agent,Telecommunications,75.0,80.0,70.0,65.0,30.0,72.75,Moderate,Prototype First
+ENG-001,Energy Consumption Agent,Energy,60.0,80.0,85.0,75.0,30.0,72.75,Moderate,Prototype First
+ENG-002,Asset Monitoring Agent,Energy,60.0,80.0,70.0,75.0,30.0,69.75,Moderate,Prototype First
+ENG-003,Grid Optimization Agent,Energy,60.0,60.0,45.0,70.0,40.0,58.5,Needs Improvement,Further Investigation Required
+ENG-004,Predictive Maintenance Agent,Energy,80.0,80.0,85.0,80.0,60.0,75.0,Ready,Deploy After Improvements
+ENG-005,Carbon Emission Agent,Energy,68.0,70.0,50.0,65.0,20.0,66.15,Moderate,Prototype First
+DAT-001,Data Quality Agent,Data & Analytics,80.0,70.0,35.0,75.0,60.0,62.25,Moderate,Prototype First
+DAT-002,ETL Monitoring Agent,Data & Analytics,70.0,90.0,80.0,90.0,60.0,74.5,Moderate,Prototype First
+DAT-003,Business Intelligence Agent,Data & Analytics,80.0,80.0,45.0,80.0,50.0,68.5,Moderate,Prototype First
+DAT-004,Data Governance Agent,Data & Analytics,50.0,90.0,35.0,85.0,30.0,63.25,Moderate,Prototype First
+DAT-005,Analytics Assistant,Data & Analytics,60.0,70.0,60.0,90.0,50.0,65.0,Moderate,Prototype First

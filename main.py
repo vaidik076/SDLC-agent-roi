@@ -1,9 +1,15 @@
 from agent_generator.metadata_generator import AgentGenerator
+
 from roi_engine.calculator import ROICalculator
 from roi_engine.ranking import ROIRanking
 from roi_engine.analytics import PortfolioAnalytics
 from roi_engine.recommendation import RecommendationEngine
 from exporters.roi_exporter import ROIExporter
+
+from evaluation_engine.evaluator import EvaluationEngine
+
+import csv
+import os
 
 
 def main():
@@ -62,6 +68,60 @@ def main():
 
     exporter = ROIExporter()
     exporter.export_csv(ranked_agents)
+
+    # ==========================================================
+    # Evaluation Engine
+    # ==========================================================
+
+    evaluation_engine = EvaluationEngine()
+
+    evaluations = evaluation_engine.evaluate_all(
+        agents
+    )
+
+    # ==========================================================
+    # Export Evaluation Report
+    # ==========================================================
+
+    os.makedirs("output", exist_ok=True)
+
+    with open(
+        "output/evaluation_results.csv",
+        "w",
+        newline="",
+    ) as file:
+
+        writer = csv.writer(file)
+
+        writer.writerow([
+            "Agent ID",
+            "Agent Name",
+            "Business Domain",
+            "Business Impact",
+            "Data Readiness",
+            "AI Readiness",
+            "Technical Complexity",
+            "Risk Score",
+            "Overall Score",
+            "Readiness",
+            "Recommendation",
+        ])
+
+        for evaluation in evaluations:
+
+            writer.writerow([
+                evaluation.agent_id,
+                evaluation.agent_name,
+                evaluation.business_domain,
+                evaluation.business_impact_score,
+                evaluation.data_readiness_score,
+                evaluation.ai_readiness_score,
+                evaluation.technical_complexity_score,
+                evaluation.risk_score,
+                evaluation.overall_score,
+                evaluation.readiness_level,
+                evaluation.recommendation,
+            ])
 
     # ==========================================================
     # TOP 10 AI AGENTS
@@ -162,18 +222,51 @@ def main():
             f"Payback {agent.payback_period_months:>6.2f} Months"
         )
 
-    print()
+    # ==========================================================
+    # EVALUATION SUMMARY
+    # ==========================================================
 
-    print("📄 Files Generated")
-    print("-" * 90)
+    print()
+    print("=" * 90)
+    print("EVALUATION SUMMARY")
+    print("=" * 90)
+
+    for evaluation in evaluations[:10]:
+
+        print()
+        print(f"{evaluation.agent_name}")
+        print("-" * 90)
+
+        print(f"Business Impact        : {evaluation.business_impact_score:.0f}")
+        print(f"Data Readiness         : {evaluation.data_readiness_score:.0f}")
+        print(f"AI Readiness           : {evaluation.ai_readiness_score:.0f}")
+        print(f"Technical Complexity   : {evaluation.technical_complexity_score:.0f}")
+        print(f"Risk Score             : {evaluation.risk_score:.0f}")
+
+        print()
+
+        print(f"Overall Score          : {evaluation.overall_score:.2f}")
+        print(f"Readiness              : {evaluation.readiness_level}")
+        print(f"Recommendation         : {evaluation.recommendation}")
+
+    # ==========================================================
+    # Generated Files
+    # ==========================================================
+
+    print()
+    print("=" * 90)
+    print("FILES GENERATED")
+    print("=" * 90)
+
     print("✔ data/agents.csv")
     print("✔ data/agents.json")
     print("✔ data/roi_results.csv")
+    print("✔ output/evaluation_results.csv")
 
     print()
 
     print("=" * 90)
-    print("Day 3 ROI Engine Completed Successfully")
+    print("ROI ENGINE + EVALUATION ENGINE COMPLETED SUCCESSFULLY")
     print("=" * 90)
 
 
