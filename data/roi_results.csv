@@ -1,0 +1,101 @@
+Rank,Agent ID,Agent Name,Business Domain,Implementation Cost,Operating Cost,Annual Savings,Net Benefit,ROI %,Payback (Months),ROI Score
+1,FIN-003,Expense Validation Agent,Finance,51532.0,13602.0,101130.0,87528.0,169.85,7.06,137.91
+2,EDU-003,Course Recommendation Agent,Education,55369.0,10992.0,90300.0,79308.0,143.24,8.38,121.94
+3,MKT-004,Social Media Agent,Marketing,53077.0,15241.0,91650.0,76409.0,143.96,8.34,121.18
+4,EDU-001,Student Assistant,Education,56998.0,11098.0,88320.0,77222.0,135.48,8.86,115.69
+5,MKT-001,Campaign Optimization Agent,Marketing,68273.0,15553.0,101340.0,85787.0,125.65,9.55,112.19
+6,CSP-005,Support Routing Agent,Customer Support,79723.0,15966.0,99600.0,83634.0,104.91,11.44,100.54
+7,MKT-005,Customer Segmentation Agent,Marketing,60531.0,19321.0,82140.0,62819.0,103.78,11.56,100.27
+8,FIN-001,Invoice Processing Agent,Finance,71652.0,12367.0,90030.0,77663.0,108.39,11.07,99.83
+9,HR-002,Employee Onboarding Agent,Human Resources,58720.0,19453.0,78000.0,58547.0,99.71,12.04,95.82
+10,MKT-002,Content Recommendation Agent,Marketing,77226.0,17394.0,94080.0,76686.0,99.3,12.08,95.58
+11,EDU-004,Attendance Monitoring Agent,Education,57319.0,11595.0,68940.0,57345.0,100.05,11.99,94.03
+12,HR-005,Employee Helpdesk Agent,Human Resources,52487.0,19638.0,70200.0,50562.0,96.33,12.46,93.0
+13,RTL-005,Inventory Assistant,Retail,74328.0,11271.0,81090.0,69819.0,93.93,12.77,92.36
+14,EDU-002,Exam Evaluation Agent,Education,71714.0,10794.0,74940.0,64146.0,89.45,13.42,91.27
+15,RTL-004,Customer Recommendation Agent,Retail,78027.0,15305.0,88560.0,73255.0,93.88,12.78,90.73
+16,RTL-002,Demand Prediction Agent,Retail,67368.0,19683.0,79680.0,59997.0,89.06,13.47,90.64
+17,CSP-004,Customer Feedback Agent,Customer Support,83347.0,19331.0,82920.0,63589.0,76.29,15.73,82.98
+18,RTL-003,Price Optimization Agent,Retail,75978.0,17744.0,77730.0,59986.0,78.95,15.2,82.57
+19,RTL-001,Shelf Monitoring Agent,Retail,74497.0,13492.0,73710.0,60218.0,80.83,14.85,82.5
+20,HR-004,Performance Review Agent,Human Resources,83057.0,18516.0,82620.0,64104.0,77.18,15.55,80.71
+21,CSP-002,FAQ Assistant,Customer Support,80767.0,16795.0,76110.0,59315.0,73.44,16.34,78.06
+22,MKT-003,SEO Analysis Agent,Marketing,86009.0,17671.0,79830.0,62159.0,72.27,16.6,77.36
+23,CSP-003,Complaint Analysis Agent,Customer Support,83488.0,18493.0,78240.0,59747.0,71.56,16.77,77.34
+24,HR-003,Attendance Monitoring Agent,Human Resources,85290.0,19125.0,77370.0,58245.0,68.29,17.57,76.17
+25,EDU-005,Learning Analytics Agent,Education,80543.0,18622.0,66720.0,48098.0,59.72,20.09,71.43
+26,CSP-001,Ticket Resolution Agent,Customer Support,89020.0,19245.0,70470.0,51225.0,57.54,20.85,68.93
+27,MFG-002,Predictive Maintenance Agent,Manufacturing,93945.0,25335.0,77040.0,51705.0,55.04,21.8,63.02
+28,GEN-001,Drug Safety Agent,Pharmaceutical,105060.0,25812.0,71970.0,46158.0,43.93,27.31,59.56
+29,SAL-003,Sales Forecast Agent,Sales,93278.0,30655.0,69030.0,38375.0,41.14,29.17,57.88
+30,TEL-003,Customer Usage Analysis Agent,Telecommunications,97261.0,39778.0,83730.0,43952.0,45.19,26.55,57.11
+31,PRC-001,RFQ Management Agent,Procurement,114292.0,34342.0,76920.0,42578.0,37.25,32.21,55.95
+32,SCM-005,Logistics Planning Agent,Supply Chain,113888.0,24044.0,76140.0,52096.0,45.74,26.23,55.85
+33,SAL-005,Opportunity Prediction Agent,Sales,125127.0,23311.0,75720.0,52409.0,41.88,28.65,54.73
+34,HR-001,Resume Screening Agent,Human Resources,139965.0,20238.0,73830.0,53592.0,38.29,31.34,54.57
+35,GEN-002,Log Analysis Agent,IT Operations,101006.0,40150.0,81420.0,41270.0,40.86,29.37,54.52
+36,GEN-003,Cloud Cost Optimizer,IT Operations,129112.0,36357.0,78810.0,42453.0,32.88,36.5,53.73
+37,SCM-001,Inventory Optimization Agent,Supply Chain,120984.0,40260.0,85980.0,45720.0,37.79,31.75,53.47
+38,GEN-001,Incident Resolution Agent,IT Operations,127965.0,37173.0,81870.0,44697.0,34.93,34.36,53.36
+39,GEN-002,Clinical Trial Assistant,Pharmaceutical,129006.0,25459.0,76980.0,51521.0,39.94,30.05,53.16
+40,PRC-004,Spend Analysis Agent,Procurement,110825.0,21524.0,63720.0,42196.0,38.07,31.52,52.84
+41,GEN-005,Infrastructure Monitoring Agent,IT Operations,139350.0,23750.0,72540.0,48790.0,35.01,34.27,51.41
+42,MFG-004,Defect Detection Agent,Manufacturing,122277.0,32125.0,76890.0,44765.0,36.61,32.78,51.17
+43,GEN-005,Laboratory Assistant,Pharmaceutical,179948.0,20864.0,77490.0,56626.0,31.47,38.13,50.48
+44,MFG-001,Quality Inspection Agent,Manufacturing,99481.0,26084.0,56580.0,30496.0,30.66,39.15,50.39
+45,MFG-003,Production Monitoring Agent,Manufacturing,163314.0,26915.0,85830.0,58915.0,36.07,33.26,49.64
+46,TEL-004,Fault Detection Agent,Telecommunications,140927.0,30498.0,67920.0,37422.0,26.55,45.19,48.33
+47,MFG-005,Factory Optimization Agent,Manufacturing,93094.0,26054.0,48750.0,22696.0,24.38,49.22,48.23
+48,TEL-002,Call Quality Monitoring Agent,Telecommunications,104251.0,36783.0,65250.0,28467.0,27.31,43.95,47.18
+49,GEN-004,Patch Management Agent,IT Operations,131423.0,24501.0,63900.0,39399.0,29.98,40.03,46.79
+50,TEL-001,Network Optimization Agent,Telecommunications,165480.0,23073.0,61170.0,38097.0,23.02,52.12,44.61
+51,SAL-001,Lead Scoring Agent,Sales,136042.0,43844.0,80520.0,36676.0,26.96,44.51,44.18
+52,SCM-002,Demand Forecast Agent,Supply Chain,143330.0,31687.0,65490.0,33803.0,23.58,50.88,44.15
+53,GEN-003,Regulatory Compliance Agent,Pharmaceutical,172040.0,26650.0,67470.0,40820.0,23.73,50.58,43.44
+54,SCM-004,Shipment Tracking Agent,Supply Chain,177425.0,32462.0,56850.0,24388.0,13.75,87.3,42.25
+55,ENG-005,Carbon Emission Agent,Energy,273004.0,51775.0,108330.0,56555.0,20.72,57.93,41.63
+56,CYB-004,Security Compliance Agent,Cybersecurity,276293.0,48048.0,104460.0,56412.0,20.42,58.77,41.45
+57,SAL-002,CRM Assistant,Sales,115839.0,28924.0,49290.0,20366.0,17.58,68.25,41.35
+58,PRC-002,Vendor Evaluation Agent,Procurement,121136.0,32885.0,57870.0,24985.0,20.63,58.18,41.18
+59,BNK-005,Credit Analysis Agent,Banking,186281.0,45924.0,89160.0,43236.0,23.21,51.7,40.73
+60,BNK-004,KYC Verification Agent,Banking,197009.0,75201.0,117870.0,42669.0,21.66,55.41,40.2
+61,DAT-003,Business Intelligence Agent,Data & Analytics,252271.0,54960.0,107490.0,52530.0,20.82,57.63,39.69
+62,CYB-002,Threat Detection Agent,Cybersecurity,194387.0,57885.0,109800.0,51915.0,26.71,44.93,39.22
+63,GEN-004,Research Documentation Agent,Pharmaceutical,176653.0,38498.0,65010.0,26512.0,15.01,79.96,38.6
+64,ENG-002,Asset Monitoring Agent,Energy,255406.0,51756.0,105210.0,53454.0,20.93,57.34,37.76
+65,SAL-004,Proposal Generator Agent,Sales,101473.0,43837.0,56040.0,12203.0,12.03,99.78,37.62
+66,DAT-005,Analytics Assistant,Data & Analytics,273359.0,52212.0,92250.0,40038.0,14.65,81.93,37.59
+67,LEG-002,Legal Research Agent,Legal,195921.0,49650.0,87660.0,38010.0,19.4,61.85,36.84
+68,PRC-003,Purchase Order Agent,Procurement,160253.0,35422.0,54570.0,19148.0,11.95,100.43,36.77
+69,CYB-005,Incident Response Agent,Cybersecurity,290934.0,67151.0,109050.0,41899.0,14.4,83.32,36.64
+70,INS-003,Fraud Investigation Agent,Insurance,278438.0,77487.0,112500.0,35013.0,12.57,95.43,36.34
+71,ENG-001,Energy Consumption Agent,Energy,243325.0,68819.0,98580.0,29761.0,12.23,98.11,36.14
+72,TEL-005,Bandwidth Optimization Agent,Telecommunications,103423.0,41502.0,48450.0,6948.0,6.72,178.62,36.03
+73,ENG-004,Predictive Maintenance Agent,Energy,236665.0,78166.0,108540.0,30374.0,12.83,93.5,35.7
+74,LEG-005,Case Summary Agent,Legal,267119.0,49703.0,81780.0,32077.0,12.01,99.93,35.61
+75,CYB-003,Vulnerability Scanner Agent,Cybersecurity,278527.0,68463.0,93180.0,24717.0,8.87,135.22,35.32
+76,HLT-003,Medical Coding Agent,Healthcare,245862.0,69238.0,115200.0,45962.0,18.69,64.19,35.22
+77,HLT-004,Diagnosis Support Agent,Healthcare,258064.0,68911.0,104880.0,35969.0,13.94,86.1,35.16
+78,DAT-001,Data Quality Agent,Data & Analytics,292550.0,69850.0,97440.0,27590.0,9.43,127.24,34.86
+79,SCM-003,Warehouse Assistant,Supply Chain,176357.0,42680.0,49980.0,7300.0,4.14,289.9,34.48
+80,FIN-004,Audit Assistant,Finance,277622.0,59234.0,86850.0,27616.0,9.95,120.64,34.37
+81,BNK-001,Fraud Detection Agent,Banking,280725.0,67896.0,91800.0,23904.0,8.52,140.93,34.31
+82,INS-001,Claims Processing Agent,Insurance,203668.0,54453.0,94740.0,40287.0,19.78,60.67,34.27
+83,DAT-002,ETL Monitoring Agent,Data & Analytics,247446.0,62951.0,105750.0,42799.0,17.3,69.38,33.98
+84,FIN-002,Cashflow Forecast Agent,Finance,109200.0,39812.0,48450.0,8638.0,7.91,151.7,33.95
+85,FIN-005,Financial Planning Agent,Finance,242474.0,76304.0,112500.0,36196.0,14.93,80.39,33.76
+86,HLT-002,Patient Scheduling Agent,Healthcare,222165.0,50683.0,83760.0,33077.0,14.89,80.6,33.73
+87,CYB-001,SOC Monitoring Agent,Cybersecurity,222427.0,46231.0,77850.0,31619.0,14.22,84.42,32.93
+88,INS-005,Risk Profiling Agent,Insurance,230628.0,79890.0,115560.0,35670.0,15.47,77.59,32.88
+89,BNK-003,Risk Assessment Agent,Banking,269957.0,64540.0,88860.0,24320.0,9.01,133.2,32.21
+90,ENG-003,Grid Optimization Agent,Energy,241397.0,75591.0,101820.0,26229.0,10.87,110.44,31.72
+91,BNK-002,Loan Processing Agent,Banking,295732.0,60234.0,107160.0,46926.0,15.87,75.63,31.52
+92,INS-004,Customer Renewal Agent,Insurance,237331.0,71971.0,85230.0,13259.0,5.59,214.8,30.55
+93,LEG-004,Policy Review Agent,Legal,293728.0,71448.0,89340.0,17892.0,6.09,197.0,30.45
+94,HLT-001,Clinical Documentation Agent,Healthcare,271114.0,58028.0,94920.0,36892.0,13.61,88.19,30.16
+95,DAT-004,Data Governance Agent,Data & Analytics,279315.0,75824.0,101340.0,25516.0,9.14,131.36,29.08
+96,LEG-001,Contract Review Agent,Legal,213110.0,58440.0,79470.0,21030.0,9.87,121.6,28.72
+97,LEG-003,Compliance Assistant,Legal,298594.0,63212.0,80700.0,17488.0,5.86,204.89,27.91
+98,HLT-005,Hospital Workflow Agent,Healthcare,254722.0,55614.0,76410.0,20796.0,8.16,146.98,27.3
+99,INS-002,Policy Recommendation Agent,Insurance,192313.0,72589.0,80730.0,8141.0,4.23,283.47,25.74
+100,PRC-005,Contract Review Agent,Procurement,275304.0,77689.0,76230.0,-1459.0,-0.53,999.0,23.68
