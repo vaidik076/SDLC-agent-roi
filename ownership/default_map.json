@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "test_failure_loop": {"owner": "QA Engineering", "contact": "qa-team@example.com", "priority": "High", "rationale": "Tests failing repeatedly require QA investigation and flaky test fixes."},
+    "excessive_retries": {"owner": "AI Engineering", "contact": "ai-eng@example.com", "priority": "High", "rationale": "Agent instability or brittle integrations — needs AI model/automation engineering."},
+    "high_token_consumption": {"owner": "FinOps", "contact": "finops@example.com", "priority": "Medium", "rationale": "High token usage impacts cost; FinOps should optimize model choices and pricing."},
+    "high_latency": {"owner": "Platform Engineering", "contact": "platform-eng@example.com", "priority": "Medium", "rationale": "Platform performance issues; investigate infra or network bottlenecks."},
+    "human_intervention": {"owner": "Dev Team", "contact": "dev-team@example.com", "priority": "Medium", "rationale": "Human-in-the-loop suggests feature or workflow gaps for the owning repo team."},
+    "insufficient_evidence": {"owner": "Platform Engineering", "contact": "platform-eng@example.com", "priority": "Low", "rationale": "Data collection or telemetry gaps — platform should improve observability."},
+    "low_overall_performance": {"owner": "AI Engineering", "contact": "ai-eng@example.com", "priority": "Medium", "rationale": "Overall poor performance likely requires model or pipeline improvements."},
+    "success": {"owner": "N/A", "contact": "", "priority": "Low", "rationale": "No owner needed — task succeeded."},
+    "unknown_underperformance": {"owner": "Platform Engineering", "contact": "platform-eng@example.com", "priority": "Low", "rationale": "Investigate telemetry and logs to determine root cause."}
+  },
+  "default_owner": {"owner": "Platform Engineering", "contact": "platform-eng@example.com", "priority": "Medium", "rationale": "Default owner for unmapped issues."}
+}
