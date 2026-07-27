@@ -21,3 +21,26 @@ Enterprise AI platform for generating, evaluating, and prioritizing 100+ synthet
 - OpenAI / LLM APIs
 
 > 🚧 Project currently under active development.
+
+
+Quick demo
+----------
+A tiny convenience script is provided to run a short demo pipeline on example Trace records and write JSON outputs to output/demo.
+
+1. Activate your virtual environment (PowerShell example):
+
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned ; .\.venv\Scripts\Activate.ps1
+
+2. Install dependencies (if not already installed):
+
+   pip install pydantic pandas pytest
+
+3. Run the demo script from the repo root:
+
+   python run_demo.py
+
+This writes output/demo/<task_id>.json for each demo task and prints a short summary.
+
+Troubleshooting
+- If `pip` is blocked by an Application Control policy (common in enterprise environments), ask your IT or security team to allow python package installation in your environment or provide an approved environment with required packages installed. Alternatives include using a pre-built container image, Conda environments provisioned by IT, or running the demo on a developer machine with fewer policy restrictions.
+- If imports fail when running run_demo.py, double-check you're running the command from the repository root and that the virtualenv is active.
