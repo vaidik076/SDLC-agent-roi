@@ -61,4 +61,4 @@ To run locally (requires streamlit to be installed):
 3. Run the app from the repo root:
    streamlit run dashboard/app.py
 
-If installing packages is blocked locally, consider running the dashboard inside Docker or in CI; tell me if you'd like a Dockerfile or a GitHub Actions workflow to run the demo and host artifacts.
+If installing packages is blocked locally, run the dashboard inside Docker (recommended). A Dockerfile is included — build and run the container as described below.
