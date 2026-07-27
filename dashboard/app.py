@@ -27,6 +27,7 @@ def to_summary_df(records: List[Dict[str, Any]]) -> pd.DataFrame:
         roi = r.get("roi", {})
         rca = r.get("rca", {})
         owner = r.get("owner", {})
+        rec = r.get("recommendation", {})
         rows.append(
             {
                 "task_id": r.get("task_id"),
@@ -41,6 +42,10 @@ def to_summary_df(records: List[Dict[str, Any]]) -> pd.DataFrame:
                 "rca_confidence": rca.get("confidence"),
                 "owner": owner.get("owner"),
                 "owner_contact": owner.get("contact"),
+                "recommendation_text": rec.get("text"),
+                "recommendation_priority": rec.get("priority"),
+                "recommendation_effort_hours": rec.get("estimated_effort_hours"),
+                "recommendation_confidence": rec.get("confidence"),
             }
         )
     df = pd.DataFrame(rows)
@@ -105,6 +110,9 @@ def main():
 
             st.markdown("**Ownership**")
             st.json(rec.get("owner", {}))
+
+            st.markdown("**Recommendation**")
+            st.json(rec.get("recommendation", {}))
 
             st.markdown("**Raw record**")
             st.json(rec)
