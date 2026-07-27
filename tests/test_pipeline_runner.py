@@ -33,6 +33,7 @@ def test_process_trace_integration(tmp_path):
     assert 'roi' in rec and 'roi_percent' in rec['roi']
     assert 'rca' in rec and 'root_cause' in rec['rca']
     assert 'owner' in rec and 'owner' in rec['owner']
+    assert 'recommendation' in rec and 'text' in rec['recommendation']
 
     # file written
     out_file = tmp_path / 'task-123.json'

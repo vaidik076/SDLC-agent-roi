@@ -20,6 +20,7 @@ from evaluation_engine.trace_scoring import score_trace
 from roi_engine.trace_calculator import calculate_roi_from_trace
 from rca.rca_engine import analyze_trace_rca
 from ownership.ownership_map import map_root_cause_to_owner
+from recommendation.recommender import generate_recommendation
 
 
 def process_trace(trace: Trace, assumptions: Optional[Dict[str, Any]] = None, scoring_config: Optional[Dict[str, Any]] = None, write_path: Optional[str] = None) -> Dict[str, Any]:
@@ -37,6 +38,12 @@ def process_trace(trace: Trace, assumptions: Optional[Dict[str, Any]] = None, sc
     except Exception:
         owner = {"mapped_name": rca.get("root_cause"), "owner": "Platform Engineering", "contact": "platform-eng@example.com", "priority": "Medium", "rationale": "Ownership lookup failed"}
 
+    # Recommendation generation
+    try:
+        recommendation = generate_recommendation(rca, owner, trace.dict(), scores, roi)
+    except Exception as e:
+        recommendation = {"text": f"Recommendation generation failed: {e}", "priority": "Low", "expected_impact": "Unknown", "estimated_effort_hours": None}
+
     record = {
         "task_id": trace.task_id,
         "trace": trace.dict(),
@@ -44,6 +51,7 @@ def process_trace(trace: Trace, assumptions: Optional[Dict[str, Any]] = None, sc
         "roi": roi,
         "rca": rca,
         "owner": owner,
+        "recommendation": recommendation,
     }
 
     if write_path:
