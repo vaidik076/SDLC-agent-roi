@@ -44,3 +44,21 @@ This writes output/demo/<task_id>.json for each demo task and prints a short sum
 Troubleshooting
 - If `pip` is blocked by an Application Control policy (common in enterprise environments), ask your IT or security team to allow python package installation in your environment or provide an approved environment with required packages installed. Alternatives include using a pre-built container image, Conda environments provisioned by IT, or running the demo on a developer machine with fewer policy restrictions.
 - If imports fail when running run_demo.py, double-check you're running the command from the repository root and that the virtualenv is active.
+
+
+Streamlit dashboard (demo)
+-------------------------
+A minimal Streamlit app is provided at dashboard/app.py that reads the JSON outputs (default folder: output/demo) and displays a summary table plus task-level drill-down.
+
+To run locally (requires streamlit to be installed):
+
+1. Activate your venv (PowerShell):
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned ; .\.venv\Scripts\Activate.ps1
+
+2. Install Streamlit if allowed:
+   pip install streamlit
+
+3. Run the app from the repo root:
+   streamlit run dashboard/app.py
+
+If installing packages is blocked locally, consider running the dashboard inside Docker or in CI; tell me if you'd like a Dockerfile or a GitHub Actions workflow to run the demo and host artifacts.
