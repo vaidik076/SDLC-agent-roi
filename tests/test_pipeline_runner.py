@@ -31,6 +31,8 @@ def test_process_trace_integration(tmp_path):
     assert rec['task_id'] == 'task-123'
     assert 'scores' in rec and 'overall_score' in rec['scores']
     assert 'roi' in rec and 'roi_percent' in rec['roi']
+    assert 'rca' in rec and 'root_cause' in rec['rca']
+    assert 'owner' in rec and 'owner' in rec['owner']
 
     # file written
     out_file = tmp_path / 'task-123.json'
@@ -42,4 +44,4 @@ def test_process_traces_batch():
     results = process_traces(traces)
     assert isinstance(results, list) and len(results) == 2
     for r in results:
-        assert 'scores' in r and 'roi' in r
+        assert 'scores' in r and 'roi' in r and 'rca' in r and 'owner' in r
