@@ -1,0 +1,87 @@
+{
+  "task_id": "demo-1",
+  "trace": {
+    "task_id": "demo-1",
+    "resolved": true,
+    "retries": 0,
+    "token_usage": 300,
+    "latency_seconds": 5.0,
+    "human_intervention": false,
+    "tool_calls": [
+      {
+        "name": "pytest"
+      }
+    ],
+    "raw_evidence_refs": [
+      "ev-demo-1-1"
+    ],
+    "first_timestamp": null,
+    "last_timestamp": null
+  },
+  "scores": {
+    "reliability": 95.0,
+    "retry_penalty": 100.0,
+    "cost_efficiency": 98.33,
+    "human_effort": 100.0,
+    "overall_score": 97.67,
+    "config_used": {
+      "weights": {
+        "reliability": 0.4,
+        "retry_penalty": 0.2,
+        "cost_efficiency": 0.2,
+        "human_effort": 0.2
+      },
+      "norm": {
+        "tokens_per_point": 1000,
+        "latency_seconds_per_point": 60.0,
+        "retry_penalty_per_retry": 15
+      }
+    }
+  },
+  "roi": {
+    "trace_task_id": "demo-1",
+    "ai_cost_per_execution_usd": 0.003,
+    "annual_ai_cost_usd": 0.3,
+    "annual_human_cost_avoided_usd": 2500.0,
+    "annual_operating_cost_usd": 10.0,
+    "implementation_cost_usd": 500.0,
+    "net_annual_benefit_usd": 2489.7,
+    "roi_percent": 497.94,
+    "payback_months": 2.41,
+    "assumptions_used": {
+      "token_price_per_1k": 0.01,
+      "dev_hourly_rate": 50.0,
+      "hours_saved_per_success": 0.5,
+      "executions_per_year": 100,
+      "implementation_cost": 500.0,
+      "annual_operating_cost": 10.0,
+      "compute_hourly_cost": 0.0
+    },
+    "trace_summary": {
+      "resolved": true,
+      "retries": 0,
+      "token_usage": 300,
+      "latency_seconds": 5.0,
+      "human_intervention": false
+    }
+  },
+  "rca": {
+    "task_id": "demo-1",
+    "root_cause": "success",
+    "confidence": 40.0,
+    "evidence": [
+      "resolved == True and retries == 0"
+    ],
+    "details": {
+      "reasons": [],
+      "overall_score": 97.67
+    }
+  },
+  "owner": {
+    "mapped_name": "success",
+    "owner": "N/A",
+    "contact": "",
+    "priority": "Low",
+    "rationale": "No owner needed \u2014 task succeeded."
+  }
+}

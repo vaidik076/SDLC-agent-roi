@@ -1,0 +1,85 @@
+{
+  "task_id": "demo-3",
+  "trace": {
+    "task_id": "demo-3",
+    "resolved": false,
+    "retries": 0,
+    "token_usage": 0,
+    "latency_seconds": 1.0,
+    "human_intervention": false,
+    "tool_calls": [],
+    "raw_evidence_refs": [
+      "ev-demo-3-1"
+    ],
+    "first_timestamp": null,
+    "last_timestamp": null
+  },
+  "scores": {
+    "reliability": 40.0,
+    "retry_penalty": 100.0,
+    "cost_efficiency": 99.97,
+    "human_effort": 100.0,
+    "overall_score": 75.99,
+    "config_used": {
+      "weights": {
+        "reliability": 0.4,
+        "retry_penalty": 0.2,
+        "cost_efficiency": 0.2,
+        "human_effort": 0.2
+      },
+      "norm": {
+        "tokens_per_point": 1000,
+        "latency_seconds_per_point": 60.0,
+        "retry_penalty_per_retry": 15
+      }
+    }
+  },
+  "roi": {
+    "trace_task_id": "demo-3",
+    "ai_cost_per_execution_usd": 0.0,
+    "annual_ai_cost_usd": 0.0,
+    "annual_human_cost_avoided_usd": 0.0,
+    "annual_operating_cost_usd": 10.0,
+    "implementation_cost_usd": 500.0,
+    "net_annual_benefit_usd": -10.0,
+    "roi_percent": -2.0,
+    "payback_months": null,
+    "assumptions_used": {
+      "token_price_per_1k": 0.01,
+      "dev_hourly_rate": 50.0,
+      "hours_saved_per_success": 0.5,
+      "executions_per_year": 100,
+      "implementation_cost": 500.0,
+      "annual_operating_cost": 10.0,
+      "compute_hourly_cost": 0.0
+    },
+    "trace_summary": {
+      "resolved": false,
+      "retries": 0,
+      "token_usage": 0,
+      "latency_seconds": 1.0,
+      "human_intervention": false
+    }
+  },
+  "rca": {
+    "task_id": "demo-3",
+    "root_cause": "insufficient_evidence",
+    "confidence": 40.0,
+    "evidence": [
+      "no tool_calls and token_usage==0 and unresolved"
+    ],
+    "details": {
+      "reasons": [
+        "insufficient_evidence"
+      ],
+      "overall_score": 75.99
+    }
+  },
+  "owner": {
+    "mapped_name": "insufficient_evidence",
+    "owner": "Platform Engineering",
+    "contact": "platform-eng@example.com",
+    "priority": "Low",
+    "rationale": "Data collection or telemetry gaps \u2014 platform should improve observability."
+  }
+}

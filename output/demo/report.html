@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>AI Engineering ROI Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 24px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background: #f4f4f4; }
+    pre { background: #fafafa; padding: 12px; border: 1px solid #eee; overflow: auto; }
+    h1 { margin-bottom: 4px; }
+    .meta { color: #666; margin-bottom: 16px; }
+  </style>
+</head>
+<body>
+  <a id='top'></a>
+  <h1>AI Engineering ROI Report (Demo)</h1>
+  <div class='meta'>Generated: 2026-07-27T13:21:01.554328Z</div>
+  <h2>Summary</h2>
+  <table>
+    <thead><tr><th>Task ID</th><th>Overall Score</th><th>ROI %</th><th>Root Cause</th><th>Owner</th></tr></thead>
+    <tbody>
+      <tr><td><a href='#demo-1'>demo-1</a></td><td>97.67</td><td>497.94</td><td>success</td><td>N/A</td></tr><tr><td><a href='#demo-2'>demo-2</a></td><td>30.0</td><td>-3.2</td><td>test_failure_loop</td><td>QA Engineering</td></tr><tr><td><a href='#demo-3'>demo-3</a></td><td>75.99</td><td>-2.0</td><td>insufficient_evidence</td><td>Platform Engineering</td></tr>
+    </tbody>
+  </table>
+  <hr/>
+  <h2 id='demo-1'>demo-1</h2>
+<h3>Trace</h3>
+<pre>{
+  &quot;task_id&quot;: &quot;demo-1&quot;,
+  &quot;resolved&quot;: true,
+  &quot;retries&quot;: 0,
+  &quot;token_usage&quot;: 300,
+  &quot;latency_seconds&quot;: 5.0,
+  &quot;human_intervention&quot;: false,
+  &quot;tool_calls&quot;: [
+    {
+      &quot;name&quot;: &quot;pytest&quot;
+    }
+  ],
+  &quot;raw_evidence_refs&quot;: [
+    &quot;ev-demo-1-1&quot;
+  ],
+  &quot;first_timestamp&quot;: null,
+  &quot;last_timestamp&quot;: null
+}</pre>
+<h3>Scores</h3>
+<pre>{
+  &quot;reliability&quot;: 95.0,
+  &quot;retry_penalty&quot;: 100.0,
+  &quot;cost_efficiency&quot;: 98.33,
+  &quot;human_effort&quot;: 100.0,
+  &quot;overall_score&quot;: 97.67,
+  &quot;config_used&quot;: {
+    &quot;weights&quot;: {
+      &quot;reliability&quot;: 0.4,
+      &quot;retry_penalty&quot;: 0.2,
+      &quot;cost_efficiency&quot;: 0.2,
+      &quot;human_effort&quot;: 0.2
+    },
+    &quot;norm&quot;: {
+      &quot;tokens_per_point&quot;: 1000,
+      &quot;latency_seconds_per_point&quot;: 60.0,
+      &quot;retry_penalty_per_retry&quot;: 15
+    }
+  }
+}</pre>
+<h3>ROI</h3>
+<pre>{
+  &quot;trace_task_id&quot;: &quot;demo-1&quot;,
+  &quot;ai_cost_per_execution_usd&quot;: 0.003,
+  &quot;annual_ai_cost_usd&quot;: 0.3,
+  &quot;annual_human_cost_avoided_usd&quot;: 2500.0,
+  &quot;annual_operating_cost_usd&quot;: 10.0,
+  &quot;implementation_cost_usd&quot;: 500.0,
+  &quot;net_annual_benefit_usd&quot;: 2489.7,
+  &quot;roi_percent&quot;: 497.94,
+  &quot;payback_months&quot;: 2.41,
+  &quot;assumptions_used&quot;: {
+    &quot;token_price_per_1k&quot;: 0.01,
+    &quot;dev_hourly_rate&quot;: 50.0,
+    &quot;hours_saved_per_success&quot;: 0.5,
+    &quot;executions_per_year&quot;: 100,
+    &quot;implementation_cost&quot;: 500.0,
+    &quot;annual_operating_cost&quot;: 10.0,
+    &quot;compute_hourly_cost&quot;: 0.0
+  },
+  &quot;trace_summary&quot;: {
+    &quot;resolved&quot;: true,
+    &quot;retries&quot;: 0,
+    &quot;token_usage&quot;: 300,
+    &quot;latency_seconds&quot;: 5.0,
+    &quot;human_intervention&quot;: false
+  }
+}</pre>
+<h3>RCA</h3>
+<pre>{
+  &quot;task_id&quot;: &quot;demo-1&quot;,
+  &quot;root_cause&quot;: &quot;success&quot;,
+  &quot;confidence&quot;: 40.0,
+  &quot;evidence&quot;: [
+    &quot;resolved == True and retries == 0&quot;
+  ],
+  &quot;details&quot;: {
+    &quot;reasons&quot;: [],
+    &quot;overall_score&quot;: 97.67
+  }
+}</pre>
+<h3>Owner</h3>
+<pre>{
+  &quot;mapped_name&quot;: &quot;success&quot;,
+  &quot;owner&quot;: &quot;N/A&quot;,
+  &quot;contact&quot;: &quot;&quot;,
+  &quot;priority&quot;: &quot;Low&quot;,
+  &quot;rationale&quot;: &quot;No owner needed \u2014 task succeeded.&quot;
+}</pre>
+<h3>Recommendation</h3>
+<pre>{}</pre>
+<p><a href='#top'>Back to top</a></p>
+<h2 id='demo-2'>demo-2</h2>
+<h3>Trace</h3>
+<pre>{
+  &quot;task_id&quot;: &quot;demo-2&quot;,
+  &quot;resolved&quot;: false,
+  &quot;retries&quot;: 4,
+  &quot;token_usage&quot;: 6000,
+  &quot;latency_seconds&quot;: 120.0,
+  &quot;human_intervention&quot;: true,
+  &quot;tool_calls&quot;: [
+    {
+      &quot;name&quot;: &quot;pytest&quot;
+    }
+  ],
+  &quot;raw_evidence_refs&quot;: [
+    &quot;ev-demo-2-1&quot;
+  ],
+  &quot;first_timestamp&quot;: null,
+  &quot;last_timestamp&quot;: null
+}</pre>
+<h3>Scores</h3>
+<pre>{
+  &quot;reliability&quot;: 0.0,
+  &quot;retry_penalty&quot;: 40.0,
+  &quot;cost_efficiency&quot;: 66.0,
+  &quot;human_effort&quot;: 44.0,
+  &quot;overall_score&quot;: 30.0,
+  &quot;config_used&quot;: {
+    &quot;weights&quot;: {
+      &quot;reliability&quot;: 0.4,
+      &quot;retry_penalty&quot;: 0.2,
+      &quot;cost_efficiency&quot;: 0.2,
+      &quot;human_effort&quot;: 0.2
+    },
+    &quot;norm&quot;: {
+      &quot;tokens_per_point&quot;: 1000,
+      &quot;latency_seconds_per_point&quot;: 60.0,
+      &quot;retry_penalty_per_retry&quot;: 15
+    }
+  }
+}</pre>
+<h3>ROI</h3>
+<pre>{
+  &quot;trace_task_id&quot;: &quot;demo-2&quot;,
+  &quot;ai_cost_per_execution_usd&quot;: 0.06,
+  &quot;annual_ai_cost_usd&quot;: 6.0,
+  &quot;annual_human_cost_avoided_usd&quot;: 0.0,
+  &quot;annual_operating_cost_usd&quot;: 10.0,
+  &quot;implementation_cost_usd&quot;: 500.0,
+  &quot;net_annual_benefit_usd&quot;: -16.0,
+  &quot;roi_percent&quot;: -3.2,
+  &quot;payback_months&quot;: null,
+  &quot;assumptions_used&quot;: {
+    &quot;token_price_per_1k&quot;: 0.01,
+    &quot;dev_hourly_rate&quot;: 50.0,
+    &quot;hours_saved_per_success&quot;: 0.5,
+    &quot;executions_per_year&quot;: 100,
+    &quot;implementation_cost&quot;: 500.0,
+    &quot;annual_operating_cost&quot;: 10.0,
+    &quot;compute_hourly_cost&quot;: 0.0
+  },
+  &quot;trace_summary&quot;: {
+    &quot;resolved&quot;: false,
+    &quot;retries&quot;: 4,
+    &quot;token_usage&quot;: 6000,
+    &quot;latency_seconds&quot;: 120.0,
+    &quot;human_intervention&quot;: true
+  }
+}</pre>
+<h3>RCA</h3>
+<pre>{
+  &quot;task_id&quot;: &quot;demo-2&quot;,
+  &quot;root_cause&quot;: &quot;test_failure_loop&quot;,
+  &quot;confidence&quot;: 90.0,
+  &quot;evidence&quot;: [
+    &quot;trace.human_intervention == True&quot;,
+    &quot;trace.retries == 4 &gt;= 3&quot;,
+    &quot;trace.token_usage == 6000 &gt;= 2000&quot;,
+    &quot;unresolved and test tool calls present&quot;,
+    &quot;overall_score == 30.0 &lt; 50.0&quot;
+  ],
+  &quot;details&quot;: {
+    &quot;reasons&quot;: [
+      &quot;human_intervention&quot;,
+      &quot;excessive_retries&quot;,
+      &quot;high_token_consumption&quot;,
+      &quot;test_failure_loop&quot;,
+      &quot;low_overall_performance&quot;
+    ],
+    &quot;overall_score&quot;: 30.0
+  }
+}</pre>
+<h3>Owner</h3>
+<pre>{
+  &quot;mapped_name&quot;: &quot;test_failure_loop&quot;,
+  &quot;owner&quot;: &quot;QA Engineering&quot;,
+  &quot;contact&quot;: &quot;qa-team@example.com&quot;,
+  &quot;priority&quot;: &quot;High&quot;,
+  &quot;rationale&quot;: &quot;Tests failing repeatedly require QA investigation and flaky test fixes.&quot;
+}</pre>
+<h3>Recommendation</h3>
+<pre>{}</pre>
+<p><a href='#top'>Back to top</a></p>
+<h2 id='demo-3'>demo-3</h2>
+<h3>Trace</h3>
+<pre>{
+  &quot;task_id&quot;: &quot;demo-3&quot;,
+  &quot;resolved&quot;: false,
+  &quot;retries&quot;: 0,
+  &quot;token_usage&quot;: 0,
+  &quot;latency_seconds&quot;: 1.0,
+  &quot;human_intervention&quot;: false,
+  &quot;tool_calls&quot;: [],
+  &quot;raw_evidence_refs&quot;: [
+    &quot;ev-demo-3-1&quot;
+  ],
+  &quot;first_timestamp&quot;: null,
+  &quot;last_timestamp&quot;: null
+}</pre>
+<h3>Scores</h3>
+<pre>{
+  &quot;reliability&quot;: 40.0,
+  &quot;retry_penalty&quot;: 100.0,
+  &quot;cost_efficiency&quot;: 99.97,
+  &quot;human_effort&quot;: 100.0,
+  &quot;overall_score&quot;: 75.99,
+  &quot;config_used&quot;: {
+    &quot;weights&quot;: {
+      &quot;reliability&quot;: 0.4,
+      &quot;retry_penalty&quot;: 0.2,
+      &quot;cost_efficiency&quot;: 0.2,
+      &quot;human_effort&quot;: 0.2
+    },
+    &quot;norm&quot;: {
+      &quot;tokens_per_point&quot;: 1000,
+      &quot;latency_seconds_per_point&quot;: 60.0,
+      &quot;retry_penalty_per_retry&quot;: 15
+    }
+  }
+}</pre>
+<h3>ROI</h3>
+<pre>{
+  &quot;trace_task_id&quot;: &quot;demo-3&quot;,
+  &quot;ai_cost_per_execution_usd&quot;: 0.0,
+  &quot;annual_ai_cost_usd&quot;: 0.0,
+  &quot;annual_human_cost_avoided_usd&quot;: 0.0,
+  &quot;annual_operating_cost_usd&quot;: 10.0,
+  &quot;implementation_cost_usd&quot;: 500.0,
+  &quot;net_annual_benefit_usd&quot;: -10.0,
+  &quot;roi_percent&quot;: -2.0,
+  &quot;payback_months&quot;: null,
+  &quot;assumptions_used&quot;: {
+    &quot;token_price_per_1k&quot;: 0.01,
+    &quot;dev_hourly_rate&quot;: 50.0,
+    &quot;hours_saved_per_success&quot;: 0.5,
+    &quot;executions_per_year&quot;: 100,
+    &quot;implementation_cost&quot;: 500.0,
+    &quot;annual_operating_cost&quot;: 10.0,
+    &quot;compute_hourly_cost&quot;: 0.0
+  },
+  &quot;trace_summary&quot;: {
+    &quot;resolved&quot;: false,
+    &quot;retries&quot;: 0,
+    &quot;token_usage&quot;: 0,
+    &quot;latency_seconds&quot;: 1.0,
+    &quot;human_intervention&quot;: false
+  }
+}</pre>
+<h3>RCA</h3>
+<pre>{
+  &quot;task_id&quot;: &quot;demo-3&quot;,
+  &quot;root_cause&quot;: &quot;insufficient_evidence&quot;,
+  &quot;confidence&quot;: 40.0,
+  &quot;evidence&quot;: [
+    &quot;no tool_calls and token_usage==0 and unresolved&quot;
+  ],
+  &quot;details&quot;: {
+    &quot;reasons&quot;: [
+      &quot;insufficient_evidence&quot;
+    ],
+    &quot;overall_score&quot;: 75.99
+  }
+}</pre>
+<h3>Owner</h3>
+<pre>{
+  &quot;mapped_name&quot;: &quot;insufficient_evidence&quot;,
+  &quot;owner&quot;: &quot;Platform Engineering&quot;,
+  &quot;contact&quot;: &quot;platform-eng@example.com&quot;,
+  &quot;priority&quot;: &quot;Low&quot;,
+  &quot;rationale&quot;: &quot;Data collection or telemetry gaps \u2014 platform should improve observability.&quot;
+}</pre>
+<h3>Recommendation</h3>
+<pre>{}</pre>
+<p><a href='#top'>Back to top</a></p>
+
+</body>
+</html>
