@@ -2,6 +2,27 @@
 
 Enterprise AI platform for generating, evaluating, and prioritizing synthetic AI agents using ROI analytics, scoring, and an interactive dashboard.
 
+## Current status (as of now)
+
+This repository is at a working MVP checkpoint for the enterprise-agent ROI platform. The core project structure is in place, including:
+
+- synthetic agent generation and scoring flow
+- ROI calculation and ranking logic
+- evaluation engine with trace-based scoring
+- RCA, ownership mapping, and recommendation generation
+- JSON output generation for demo runs
+- dashboard support for reviewing campaign results
+
+This is a good stopping point to continue from on the next machine/project setup. The next phase should focus on hardening the system, improving persistence, UI/UX polish, and mapping the demo into a production-ready workflow.
+
+Recommended next steps for continuation:
+
+- connect the pipeline to real enterprise data sources
+- add persistent storage and export/import workflows
+- improve dashboard filtering and analytics views
+- add tests for scoring, ROI, and recommendation modules
+- package the app for deployment and operational use
+
 ## What is included
 
 - Synthetic enterprise agent generation

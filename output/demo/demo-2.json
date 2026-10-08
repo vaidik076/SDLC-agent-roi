@@ -93,5 +93,12 @@
     "contact": "qa-team@example.com",
     "priority": "High",
     "rationale": "Tests failing repeatedly require QA investigation and flaky test fixes."
+  },
+  "recommendation": {
+    "text": "Fix failing tests and/or flakiness causing repeated failures; run tests in CI and add assertions or stabilize test fixtures. Owner: QA Engineering.",
+    "priority": "High",
+    "expected_impact": "High \u2014 fixing tests will likely convert failures to passes and improve ROI significantly.",
+    "estimated_effort_hours": 16,
+    "confidence": 90.0
   }
 }

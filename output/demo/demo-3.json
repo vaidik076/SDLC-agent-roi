@@ -81,5 +81,12 @@
     "contact": "platform-eng@example.com",
     "priority": "Low",
     "rationale": "Data collection or telemetry gaps \u2014 platform should improve observability."
+  },
+  "recommendation": {
+    "text": "Improve telemetry and evidence collection (CI logs, LLM usage) so the platform can evaluate outcomes. Owner: Platform Engineering.",
+    "priority": "High",
+    "expected_impact": "High impact on cost if resolved.",
+    "estimated_effort_hours": 8,
+    "confidence": 40.0
   }
 }
